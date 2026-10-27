@@ -1,0 +1,178 @@
+{
+  "sensor": {
+    "title": "Sensor Zigbee",
+    "subtitle": "SONOFF SNZB-02P",
+    "description": "Mengukur suhu dan kelembapan pada satu titik di dalam ruang server.",
+    "rows": [
+      [
+        "Komunikasi",
+        "Zigbee 3.0 / IEEE 802.15.4"
+      ],
+      [
+        "Akurasi suhu",
+        "±0,2 °C"
+      ],
+      [
+        "Akurasi kelembapan",
+        "±2% RH"
+      ],
+      [
+        "Suhu operasi",
+        "−10 sampai 60 °C"
+      ],
+      [
+        "Kelembapan operasi",
+        "5–95% RH, tanpa kondensasi"
+      ],
+      [
+        "Baterai",
+        "CR2477"
+      ],
+      [
+        "Ukuran / berat",
+        "45 × 45 × 17,7 mm / 26,7 g"
+      ],
+      [
+        "Pemasangan",
+        "Magnet pada kotak besi di dinding"
+      ],
+      [
+        "Tinggi dari lantai",
+        "1,798 m"
+      ],
+      [
+        "Jarak ke server / Mini PC",
+        "0,636 m / 1,5 m"
+      ]
+    ],
+    "note": "Pembacaan mewakili titik sensor, bukan seluruh rak. Sensor terkena hembusan AC langsung. Granularitas data tercatat 0,1 °C; produsen tidak menyatakan resolusi pengukuran.",
+    "source": "Sumber: vault Bab 3, Tabel 3.12 dan 3.17; dokumentasi pemasangan diperbarui 5 Oktober 2026."
+  },
+  "server": {
+    "title": "Server & rak",
+    "subtitle": "HP ProLiant DL360 G7",
+    "description": "Server virtualisasi produksi yang terdokumentasi di ruang server PT Kayreach System.",
+    "rows": [
+      [
+        "Prosesor",
+        "2 × Intel Xeon X5670, 2,93 GHz"
+      ],
+      [
+        "Inti / utas total",
+        "12 inti / 24 utas"
+      ],
+      [
+        "Memori",
+        "48 GB"
+      ],
+      [
+        "Platform",
+        "VMware ESXi 6.5.0 Update 3"
+      ],
+      [
+        "Build ESXi",
+        "14320405"
+      ],
+      [
+        "Firmware",
+        "HP P68 — 5 Mei 2011"
+      ],
+      [
+        "Operasional",
+        "Server menyala 24 jam menurut konfirmasi lapangan"
+      ],
+      [
+        "Lingkungan rak",
+        "Satu rak; sekitar 10 perangkat aktif"
+      ],
+      [
+        "Pendinginan",
+        "2 AC split dinding Daikin FT15LV14"
+      ]
+    ],
+    "note": "Rak 3D mewakili area server; susunan perangkat di dalamnya bersifat ilustratif. Sekitar 10 perangkat merupakan perkiraan lapangan, bukan inventaris pasti. VM gateway penelitian kini berada pada Mini PC yang terpisah.",
+    "source": "Sumber: vault Bab 3, Subbab 3.2.1 dan 3.3.3; riwayat infrastruktur."
+  },
+  "minipc": {
+    "title": "Mini PC penelitian",
+    "subtitle": "HP EliteDesk 800 G3 DM 65W",
+    "description": "Gateway khusus penelitian, ditempatkan di luar ruang server. Layanan berjalan di mesin virtual Ubuntu pada Mini PC ini.",
+    "rows": [
+      [
+        "Prosesor induk",
+        "Intel Core i7-7700, 3,60 GHz"
+      ],
+      [
+        "Inti / prosesor logis",
+        "4 inti / 8 prosesor logis"
+      ],
+      [
+        "RAM induk terbaca",
+        "15,88 GiB"
+      ],
+      [
+        "Penyimpanan induk",
+        "SanDisk SD9SB8W-128G-1006; 119,24 GiB terbaca"
+      ],
+      [
+        "Sistem induk",
+        "Windows 10 Enterprise, build 19045, 64-bit"
+      ],
+      [
+        "Virtualisasi",
+        "VirtualBox 7.2.14"
+      ],
+      [
+        "Mesin virtual",
+        "Ubuntu Server 24.04.4 LTS"
+      ],
+      [
+        "Sumber daya VM",
+        "4 vCPU; RAM terlihat 7,8 GiB; disk virtual 50 GB"
+      ],
+      [
+        "Koordinator USB",
+        "SONOFF ZB Dongle-E; antena tegak"
+      ],
+      [
+        "Jarak dari sensor",
+        "1,5 m"
+      ]
+    ],
+    "services_checked_at": "4 Oktober 2026, 17:22:09 WIB",
+    "services": [
+      {
+        "name": "Python API inferensi",
+        "unit": "mini-pc-inference-api",
+        "description": "Memuat model GRU dan LSTM; API lokal pada port 8000.",
+        "status": "Aktif saat diperiksa"
+      },
+      {
+        "name": "InfluxDB",
+        "unit": "influxdb",
+        "description": "Menyimpan pembacaan suhu dan kelembapan; port 8086.",
+        "status": "Aktif saat diperiksa"
+      },
+      {
+        "name": "Mosquitto",
+        "unit": "mosquitto",
+        "description": "Broker MQTT untuk pesan sensor; port 1883.",
+        "status": "Aktif saat diperiksa"
+      },
+      {
+        "name": "Node-RED",
+        "unit": "nodered",
+        "description": "Mengolah alur akuisisi, inferensi, snapshot dan notifikasi; port 1881.",
+        "status": "Aktif saat diperiksa"
+      },
+      {
+        "name": "Zigbee2MQTT",
+        "unit": "zigbee2mqtt",
+        "description": "Menghubungkan koordinator Zigbee ke MQTT; antarmuka port 8081.",
+        "status": "Aktif saat diperiksa"
+      }
+    ],
+    "note": "Status layanan adalah hasil pemeriksaan terakhir yang tercatat, bukan pemantauan langsung. API Vercel dan database Aiven merupakan layanan terpisah di luar Mini PC.",
+    "source": "Spesifikasi: vault Tabel 3.12–3.13 dan pemeriksaan 13/27 September 2026. Status: uji pengiriman otomatis 4 Oktober 2026."
+  }
+}

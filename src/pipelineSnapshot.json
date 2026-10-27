@@ -1,0 +1,5313 @@
+{
+  "source": "sensor_ruang_04agu_sampai_20261006_120840_wib.csv",
+  "window": "20 Agustus–30 September 2026 (WIB)",
+  "status": "Snapshot pengolahan 42 hari; bukan hasil training",
+  "total": 12096,
+  "complete": 11342,
+  "missing": 754,
+  "rawCount": 67299,
+  "cleanCount": 67293,
+  "artifactRemoved": 6,
+  "invalidRemoved": 0,
+  "raw": [
+    {
+      "time": "2026-08-20T00:04:27.896000+07:00",
+      "label": "20/08 00:04",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:04:47.705000+07:00",
+      "label": "20/08 00:04",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:09:22.045000+07:00",
+      "label": "20/08 00:09",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:09:27.242000+07:00",
+      "label": "20/08 00:09",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:10:21.911000+07:00",
+      "label": "20/08 00:10",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:14:26.547000+07:00",
+      "label": "20/08 00:14",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:15:21.237000+07:00",
+      "label": "20/08 00:15",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:17:39.585000+07:00",
+      "label": "20/08 00:17",
+      "temperature": 30.8,
+      "humidity": 52.2
+    }
+  ],
+  "artifact": [
+    {
+      "time": "2026-08-26T11:38:50.372000+07:00",
+      "label": "26/08 11:38",
+      "temperature": 26.0,
+      "humidity": 58.5
+    },
+    {
+      "time": "2026-08-26T13:18:35.477000+07:00",
+      "label": "26/08 13:18",
+      "temperature": 26.0,
+      "humidity": 58.5
+    },
+    {
+      "time": "2026-08-26T13:18:35.698000+07:00",
+      "label": "26/08 13:18",
+      "temperature": 26.0,
+      "humidity": 58.5
+    },
+    {
+      "time": "2026-08-26T13:18:39.010000+07:00",
+      "label": "26/08 13:18",
+      "temperature": 26.0,
+      "humidity": 58.5
+    },
+    {
+      "time": "2026-08-26T13:18:40.675000+07:00",
+      "label": "26/08 13:18",
+      "temperature": 26.0,
+      "humidity": 58.5
+    },
+    {
+      "time": "2026-08-26T13:18:40.708000+07:00",
+      "label": "26/08 13:18",
+      "temperature": 26.9,
+      "humidity": 58.5
+    }
+  ],
+  "aggregateRaw": [
+    {
+      "time": "2026-08-20T00:04:27.896000+07:00",
+      "label": "20/08 00:04",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:04:47.705000+07:00",
+      "label": "20/08 00:04",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:09:22.045000+07:00",
+      "label": "20/08 00:09",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:09:27.242000+07:00",
+      "label": "20/08 00:09",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:10:21.911000+07:00",
+      "label": "20/08 00:10",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:14:26.547000+07:00",
+      "label": "20/08 00:14",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:15:21.237000+07:00",
+      "label": "20/08 00:15",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:17:39.585000+07:00",
+      "label": "20/08 00:17",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:17:49.657000+07:00",
+      "label": "20/08 00:17",
+      "temperature": 30.8,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:18:39.451000+07:00",
+      "label": "20/08 00:18",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:18:49.503000+07:00",
+      "label": "20/08 00:18",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:19:49.369000+07:00",
+      "label": "20/08 00:19",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:19:55.280000+07:00",
+      "label": "20/08 00:19",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:20:49.235000+07:00",
+      "label": "20/08 00:20",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:20:55.146000+07:00",
+      "label": "20/08 00:20",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:21:55.013000+07:00",
+      "label": "20/08 00:21",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:22:41.130000+07:00",
+      "label": "20/08 00:22",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:22:54.878000+07:00",
+      "label": "20/08 00:22",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:23:40.996000+07:00",
+      "label": "20/08 00:23",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:23:54.744000+07:00",
+      "label": "20/08 00:23",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:24:40.859000+07:00",
+      "label": "20/08 00:24",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:24:54.609000+07:00",
+      "label": "20/08 00:24",
+      "temperature": 30.8,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:25:40.724000+07:00",
+      "label": "20/08 00:25",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:25:54.474000+07:00",
+      "label": "20/08 00:25",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:26:40.589000+07:00",
+      "label": "20/08 00:26",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:26:54.339000+07:00",
+      "label": "20/08 00:26",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:27:40.453000+07:00",
+      "label": "20/08 00:27",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:27:57.750000+07:00",
+      "label": "20/08 00:27",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:28:40.318000+07:00",
+      "label": "20/08 00:28",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:28:57.614000+07:00",
+      "label": "20/08 00:28",
+      "temperature": 30.8,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:29:40.183000+07:00",
+      "label": "20/08 00:29",
+      "temperature": 30.8,
+      "humidity": 52.3
+    }
+  ],
+  "aggregate": [
+    {
+      "time": "2026-08-20T00:00:00+07:00",
+      "label": "20/08 00:00",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:05:00+07:00",
+      "label": "20/08 00:05",
+      "temperature": 30.7,
+      "humidity": 52.3
+    },
+    {
+      "time": "2026-08-20T00:10:00+07:00",
+      "label": "20/08 00:10",
+      "temperature": 30.7,
+      "humidity": 52.2
+    },
+    {
+      "time": "2026-08-20T00:15:00+07:00",
+      "label": "20/08 00:15",
+      "temperature": 30.742857,
+      "humidity": 52.228571
+    },
+    {
+      "time": "2026-08-20T00:20:00+07:00",
+      "label": "20/08 00:20",
+      "temperature": 30.722222,
+      "humidity": 52.244444
+    },
+    {
+      "time": "2026-08-20T00:25:00+07:00",
+      "label": "20/08 00:25",
+      "temperature": 30.777778,
+      "humidity": 52.211111
+    }
+  ],
+  "scale": {
+    "min": {
+      "temperature": 23.514285714285712,
+      "humidity": 36.983333333333334
+    },
+    "max": {
+      "temperature": 34.7,
+      "humidity": 62.5
+    }
+  },
+  "scaled": [
+    {
+      "time": "2026-08-20T00:00:00+07:00",
+      "label": "20/08 00:00",
+      "temperature": 0.642401,
+      "humidity": 0.596342,
+      "temperature_celsius": 30.7,
+      "humidity_raw": 52.2
+    },
+    {
+      "time": "2026-08-20T00:05:00+07:00",
+      "label": "20/08 00:05",
+      "temperature": 0.642401,
+      "humidity": 0.600261,
+      "temperature_celsius": 30.7,
+      "humidity_raw": 52.3
+    },
+    {
+      "time": "2026-08-20T00:10:00+07:00",
+      "label": "20/08 00:10",
+      "temperature": 0.642401,
+      "humidity": 0.596342,
+      "temperature_celsius": 30.7,
+      "humidity_raw": 52.2
+    },
+    {
+      "time": "2026-08-20T00:15:00+07:00",
+      "label": "20/08 00:15",
+      "temperature": 0.646232,
+      "humidity": 0.597462,
+      "temperature_celsius": 30.742857,
+      "humidity_raw": 52.228571
+    },
+    {
+      "time": "2026-08-20T00:20:00+07:00",
+      "label": "20/08 00:20",
+      "temperature": 0.644388,
+      "humidity": 0.598084,
+      "temperature_celsius": 30.722222,
+      "humidity_raw": 52.244444
+    },
+    {
+      "time": "2026-08-20T00:25:00+07:00",
+      "label": "20/08 00:25",
+      "temperature": 0.649354,
+      "humidity": 0.596778,
+      "temperature_celsius": 30.777778,
+      "humidity_raw": 52.211111
+    },
+    {
+      "time": "2026-08-20T00:30:00+07:00",
+      "label": "20/08 00:30",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "temperature_celsius": 30.8,
+      "humidity_raw": 52.3
+    },
+    {
+      "time": "2026-08-20T00:35:00+07:00",
+      "label": "20/08 00:35",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "temperature_celsius": 30.8,
+      "humidity_raw": 52.3
+    }
+  ],
+  "daily": [
+    {
+      "day": "2026-08-20",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-21",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-22",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-23",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-24",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-25",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-26",
+      "complete": 245,
+      "missing": 43
+    },
+    {
+      "day": "2026-08-27",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-28",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-29",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-30",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-08-31",
+      "complete": 281,
+      "missing": 7
+    },
+    {
+      "day": "2026-09-01",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-02",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-03",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-04",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-05",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-06",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-07",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-08",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-09",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-10",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-11",
+      "complete": 283,
+      "missing": 5
+    },
+    {
+      "day": "2026-09-12",
+      "complete": 63,
+      "missing": 225
+    },
+    {
+      "day": "2026-09-13",
+      "complete": 64,
+      "missing": 224
+    },
+    {
+      "day": "2026-09-14",
+      "complete": 103,
+      "missing": 185
+    },
+    {
+      "day": "2026-09-15",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-16",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-17",
+      "complete": 280,
+      "missing": 8
+    },
+    {
+      "day": "2026-09-18",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-19",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-20",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-21",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-22",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-23",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-24",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-25",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-26",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-27",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-28",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-29",
+      "complete": 288,
+      "missing": 0
+    },
+    {
+      "day": "2026-09-30",
+      "complete": 231,
+      "missing": 57
+    }
+  ],
+  "splits": [
+    {
+      "name": "train",
+      "slots": 8064,
+      "completeBefore": 7375,
+      "completeAfter": 7375,
+      "filledCells": 0,
+      "segments": 4,
+      "samples": {
+        "60": 6628,
+        "120": 6580,
+        "180": 6532
+      }
+    },
+    {
+      "name": "val",
+      "slots": 2016,
+      "completeBefore": 2008,
+      "completeAfter": 2008,
+      "filledCells": 0,
+      "segments": 1,
+      "samples": {
+        "60": 1678,
+        "120": 1666,
+        "180": 1654
+      }
+    },
+    {
+      "name": "test",
+      "slots": 2016,
+      "completeBefore": 1959,
+      "completeAfter": 1959,
+      "filledCells": 0,
+      "segments": 1,
+      "samples": {
+        "60": 1804,
+        "120": 1792,
+        "180": 1780
+      }
+    }
+  ],
+  "shortGap": {
+    "slots": 2,
+    "simulated": true,
+    "rows": [
+      {
+        "time": "2026-08-20T00:00:00+07:00",
+        "label": "20/08 00:00",
+        "temperature": 30.7,
+        "after": 30.7
+      },
+      {
+        "time": "2026-08-20T00:05:00+07:00",
+        "label": "20/08 00:05",
+        "temperature": 30.7,
+        "after": 30.7
+      },
+      {
+        "time": "2026-08-20T00:10:00+07:00",
+        "label": "20/08 00:10",
+        "temperature": 30.7,
+        "after": 30.7
+      },
+      {
+        "time": "2026-08-20T00:15:00+07:00",
+        "label": "20/08 00:15",
+        "temperature": null,
+        "after": 30.725926
+      },
+      {
+        "time": "2026-08-20T00:20:00+07:00",
+        "label": "20/08 00:20",
+        "temperature": null,
+        "after": 30.751852
+      },
+      {
+        "time": "2026-08-20T00:25:00+07:00",
+        "label": "20/08 00:25",
+        "temperature": 30.777778,
+        "after": 30.777778
+      },
+      {
+        "time": "2026-08-20T00:30:00+07:00",
+        "label": "20/08 00:30",
+        "temperature": 30.8,
+        "after": 30.8
+      },
+      {
+        "time": "2026-08-20T00:35:00+07:00",
+        "label": "20/08 00:35",
+        "temperature": 30.8,
+        "after": 30.8
+      }
+    ]
+  },
+  "longGap": {
+    "slots": 283,
+    "rows": [
+      {
+        "time": "2026-09-13T15:40:00+07:00",
+        "label": "13/09 15:40",
+        "temperature": 34.7,
+        "after": 34.7
+      },
+      {
+        "time": "2026-09-13T15:45:00+07:00",
+        "label": "13/09 15:45",
+        "temperature": 34.7,
+        "after": 34.7
+      },
+      {
+        "time": "2026-09-13T15:50:00+07:00",
+        "label": "13/09 15:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T15:55:00+07:00",
+        "label": "13/09 15:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:00:00+07:00",
+        "label": "13/09 16:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:05:00+07:00",
+        "label": "13/09 16:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:10:00+07:00",
+        "label": "13/09 16:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:15:00+07:00",
+        "label": "13/09 16:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:20:00+07:00",
+        "label": "13/09 16:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:25:00+07:00",
+        "label": "13/09 16:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:30:00+07:00",
+        "label": "13/09 16:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:35:00+07:00",
+        "label": "13/09 16:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:40:00+07:00",
+        "label": "13/09 16:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:45:00+07:00",
+        "label": "13/09 16:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:50:00+07:00",
+        "label": "13/09 16:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T16:55:00+07:00",
+        "label": "13/09 16:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:00:00+07:00",
+        "label": "13/09 17:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:05:00+07:00",
+        "label": "13/09 17:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:10:00+07:00",
+        "label": "13/09 17:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:15:00+07:00",
+        "label": "13/09 17:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:20:00+07:00",
+        "label": "13/09 17:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:25:00+07:00",
+        "label": "13/09 17:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:30:00+07:00",
+        "label": "13/09 17:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:35:00+07:00",
+        "label": "13/09 17:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:40:00+07:00",
+        "label": "13/09 17:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:45:00+07:00",
+        "label": "13/09 17:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:50:00+07:00",
+        "label": "13/09 17:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T17:55:00+07:00",
+        "label": "13/09 17:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:00:00+07:00",
+        "label": "13/09 18:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:05:00+07:00",
+        "label": "13/09 18:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:10:00+07:00",
+        "label": "13/09 18:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:15:00+07:00",
+        "label": "13/09 18:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:20:00+07:00",
+        "label": "13/09 18:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:25:00+07:00",
+        "label": "13/09 18:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:30:00+07:00",
+        "label": "13/09 18:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:35:00+07:00",
+        "label": "13/09 18:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:40:00+07:00",
+        "label": "13/09 18:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:45:00+07:00",
+        "label": "13/09 18:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:50:00+07:00",
+        "label": "13/09 18:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T18:55:00+07:00",
+        "label": "13/09 18:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:00:00+07:00",
+        "label": "13/09 19:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:05:00+07:00",
+        "label": "13/09 19:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:10:00+07:00",
+        "label": "13/09 19:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:15:00+07:00",
+        "label": "13/09 19:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:20:00+07:00",
+        "label": "13/09 19:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:25:00+07:00",
+        "label": "13/09 19:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:30:00+07:00",
+        "label": "13/09 19:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:35:00+07:00",
+        "label": "13/09 19:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:40:00+07:00",
+        "label": "13/09 19:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:45:00+07:00",
+        "label": "13/09 19:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:50:00+07:00",
+        "label": "13/09 19:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T19:55:00+07:00",
+        "label": "13/09 19:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:00:00+07:00",
+        "label": "13/09 20:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:05:00+07:00",
+        "label": "13/09 20:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:10:00+07:00",
+        "label": "13/09 20:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:15:00+07:00",
+        "label": "13/09 20:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:20:00+07:00",
+        "label": "13/09 20:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:25:00+07:00",
+        "label": "13/09 20:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:30:00+07:00",
+        "label": "13/09 20:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:35:00+07:00",
+        "label": "13/09 20:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:40:00+07:00",
+        "label": "13/09 20:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:45:00+07:00",
+        "label": "13/09 20:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:50:00+07:00",
+        "label": "13/09 20:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T20:55:00+07:00",
+        "label": "13/09 20:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:00:00+07:00",
+        "label": "13/09 21:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:05:00+07:00",
+        "label": "13/09 21:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:10:00+07:00",
+        "label": "13/09 21:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:15:00+07:00",
+        "label": "13/09 21:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:20:00+07:00",
+        "label": "13/09 21:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:25:00+07:00",
+        "label": "13/09 21:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:30:00+07:00",
+        "label": "13/09 21:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:35:00+07:00",
+        "label": "13/09 21:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:40:00+07:00",
+        "label": "13/09 21:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:45:00+07:00",
+        "label": "13/09 21:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:50:00+07:00",
+        "label": "13/09 21:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T21:55:00+07:00",
+        "label": "13/09 21:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:00:00+07:00",
+        "label": "13/09 22:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:05:00+07:00",
+        "label": "13/09 22:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:10:00+07:00",
+        "label": "13/09 22:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:15:00+07:00",
+        "label": "13/09 22:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:20:00+07:00",
+        "label": "13/09 22:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:25:00+07:00",
+        "label": "13/09 22:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:30:00+07:00",
+        "label": "13/09 22:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:35:00+07:00",
+        "label": "13/09 22:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:40:00+07:00",
+        "label": "13/09 22:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:45:00+07:00",
+        "label": "13/09 22:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:50:00+07:00",
+        "label": "13/09 22:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T22:55:00+07:00",
+        "label": "13/09 22:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:00:00+07:00",
+        "label": "13/09 23:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:05:00+07:00",
+        "label": "13/09 23:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:10:00+07:00",
+        "label": "13/09 23:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:15:00+07:00",
+        "label": "13/09 23:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:20:00+07:00",
+        "label": "13/09 23:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:25:00+07:00",
+        "label": "13/09 23:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:30:00+07:00",
+        "label": "13/09 23:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:35:00+07:00",
+        "label": "13/09 23:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:40:00+07:00",
+        "label": "13/09 23:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:45:00+07:00",
+        "label": "13/09 23:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:50:00+07:00",
+        "label": "13/09 23:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-13T23:55:00+07:00",
+        "label": "13/09 23:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:00:00+07:00",
+        "label": "14/09 00:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:05:00+07:00",
+        "label": "14/09 00:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:10:00+07:00",
+        "label": "14/09 00:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:15:00+07:00",
+        "label": "14/09 00:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:20:00+07:00",
+        "label": "14/09 00:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:25:00+07:00",
+        "label": "14/09 00:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:30:00+07:00",
+        "label": "14/09 00:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:35:00+07:00",
+        "label": "14/09 00:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:40:00+07:00",
+        "label": "14/09 00:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:45:00+07:00",
+        "label": "14/09 00:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:50:00+07:00",
+        "label": "14/09 00:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T00:55:00+07:00",
+        "label": "14/09 00:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:00:00+07:00",
+        "label": "14/09 01:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:05:00+07:00",
+        "label": "14/09 01:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:10:00+07:00",
+        "label": "14/09 01:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:15:00+07:00",
+        "label": "14/09 01:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:20:00+07:00",
+        "label": "14/09 01:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:25:00+07:00",
+        "label": "14/09 01:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:30:00+07:00",
+        "label": "14/09 01:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:35:00+07:00",
+        "label": "14/09 01:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:40:00+07:00",
+        "label": "14/09 01:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:45:00+07:00",
+        "label": "14/09 01:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:50:00+07:00",
+        "label": "14/09 01:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T01:55:00+07:00",
+        "label": "14/09 01:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:00:00+07:00",
+        "label": "14/09 02:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:05:00+07:00",
+        "label": "14/09 02:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:10:00+07:00",
+        "label": "14/09 02:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:15:00+07:00",
+        "label": "14/09 02:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:20:00+07:00",
+        "label": "14/09 02:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:25:00+07:00",
+        "label": "14/09 02:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:30:00+07:00",
+        "label": "14/09 02:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:35:00+07:00",
+        "label": "14/09 02:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:40:00+07:00",
+        "label": "14/09 02:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:45:00+07:00",
+        "label": "14/09 02:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:50:00+07:00",
+        "label": "14/09 02:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T02:55:00+07:00",
+        "label": "14/09 02:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:00:00+07:00",
+        "label": "14/09 03:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:05:00+07:00",
+        "label": "14/09 03:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:10:00+07:00",
+        "label": "14/09 03:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:15:00+07:00",
+        "label": "14/09 03:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:20:00+07:00",
+        "label": "14/09 03:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:25:00+07:00",
+        "label": "14/09 03:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:30:00+07:00",
+        "label": "14/09 03:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:35:00+07:00",
+        "label": "14/09 03:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:40:00+07:00",
+        "label": "14/09 03:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:45:00+07:00",
+        "label": "14/09 03:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:50:00+07:00",
+        "label": "14/09 03:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T03:55:00+07:00",
+        "label": "14/09 03:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:00:00+07:00",
+        "label": "14/09 04:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:05:00+07:00",
+        "label": "14/09 04:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:10:00+07:00",
+        "label": "14/09 04:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:15:00+07:00",
+        "label": "14/09 04:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:20:00+07:00",
+        "label": "14/09 04:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:25:00+07:00",
+        "label": "14/09 04:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:30:00+07:00",
+        "label": "14/09 04:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:35:00+07:00",
+        "label": "14/09 04:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:40:00+07:00",
+        "label": "14/09 04:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:45:00+07:00",
+        "label": "14/09 04:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:50:00+07:00",
+        "label": "14/09 04:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T04:55:00+07:00",
+        "label": "14/09 04:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:00:00+07:00",
+        "label": "14/09 05:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:05:00+07:00",
+        "label": "14/09 05:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:10:00+07:00",
+        "label": "14/09 05:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:15:00+07:00",
+        "label": "14/09 05:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:20:00+07:00",
+        "label": "14/09 05:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:25:00+07:00",
+        "label": "14/09 05:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:30:00+07:00",
+        "label": "14/09 05:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:35:00+07:00",
+        "label": "14/09 05:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:40:00+07:00",
+        "label": "14/09 05:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:45:00+07:00",
+        "label": "14/09 05:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:50:00+07:00",
+        "label": "14/09 05:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T05:55:00+07:00",
+        "label": "14/09 05:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:00:00+07:00",
+        "label": "14/09 06:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:05:00+07:00",
+        "label": "14/09 06:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:10:00+07:00",
+        "label": "14/09 06:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:15:00+07:00",
+        "label": "14/09 06:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:20:00+07:00",
+        "label": "14/09 06:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:25:00+07:00",
+        "label": "14/09 06:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:30:00+07:00",
+        "label": "14/09 06:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:35:00+07:00",
+        "label": "14/09 06:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:40:00+07:00",
+        "label": "14/09 06:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:45:00+07:00",
+        "label": "14/09 06:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:50:00+07:00",
+        "label": "14/09 06:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T06:55:00+07:00",
+        "label": "14/09 06:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:00:00+07:00",
+        "label": "14/09 07:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:05:00+07:00",
+        "label": "14/09 07:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:10:00+07:00",
+        "label": "14/09 07:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:15:00+07:00",
+        "label": "14/09 07:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:20:00+07:00",
+        "label": "14/09 07:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:25:00+07:00",
+        "label": "14/09 07:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:30:00+07:00",
+        "label": "14/09 07:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:35:00+07:00",
+        "label": "14/09 07:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:40:00+07:00",
+        "label": "14/09 07:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:45:00+07:00",
+        "label": "14/09 07:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:50:00+07:00",
+        "label": "14/09 07:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T07:55:00+07:00",
+        "label": "14/09 07:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:00:00+07:00",
+        "label": "14/09 08:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:05:00+07:00",
+        "label": "14/09 08:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:10:00+07:00",
+        "label": "14/09 08:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:15:00+07:00",
+        "label": "14/09 08:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:20:00+07:00",
+        "label": "14/09 08:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:25:00+07:00",
+        "label": "14/09 08:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:30:00+07:00",
+        "label": "14/09 08:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:35:00+07:00",
+        "label": "14/09 08:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:40:00+07:00",
+        "label": "14/09 08:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:45:00+07:00",
+        "label": "14/09 08:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:50:00+07:00",
+        "label": "14/09 08:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T08:55:00+07:00",
+        "label": "14/09 08:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:00:00+07:00",
+        "label": "14/09 09:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:05:00+07:00",
+        "label": "14/09 09:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:10:00+07:00",
+        "label": "14/09 09:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:15:00+07:00",
+        "label": "14/09 09:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:20:00+07:00",
+        "label": "14/09 09:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:25:00+07:00",
+        "label": "14/09 09:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:30:00+07:00",
+        "label": "14/09 09:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:35:00+07:00",
+        "label": "14/09 09:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:40:00+07:00",
+        "label": "14/09 09:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:45:00+07:00",
+        "label": "14/09 09:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:50:00+07:00",
+        "label": "14/09 09:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T09:55:00+07:00",
+        "label": "14/09 09:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:00:00+07:00",
+        "label": "14/09 10:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:05:00+07:00",
+        "label": "14/09 10:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:10:00+07:00",
+        "label": "14/09 10:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:15:00+07:00",
+        "label": "14/09 10:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:20:00+07:00",
+        "label": "14/09 10:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:25:00+07:00",
+        "label": "14/09 10:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:30:00+07:00",
+        "label": "14/09 10:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:35:00+07:00",
+        "label": "14/09 10:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:40:00+07:00",
+        "label": "14/09 10:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:45:00+07:00",
+        "label": "14/09 10:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:50:00+07:00",
+        "label": "14/09 10:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T10:55:00+07:00",
+        "label": "14/09 10:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:00:00+07:00",
+        "label": "14/09 11:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:05:00+07:00",
+        "label": "14/09 11:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:10:00+07:00",
+        "label": "14/09 11:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:15:00+07:00",
+        "label": "14/09 11:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:20:00+07:00",
+        "label": "14/09 11:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:25:00+07:00",
+        "label": "14/09 11:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:30:00+07:00",
+        "label": "14/09 11:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:35:00+07:00",
+        "label": "14/09 11:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:40:00+07:00",
+        "label": "14/09 11:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:45:00+07:00",
+        "label": "14/09 11:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:50:00+07:00",
+        "label": "14/09 11:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T11:55:00+07:00",
+        "label": "14/09 11:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:00:00+07:00",
+        "label": "14/09 12:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:05:00+07:00",
+        "label": "14/09 12:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:10:00+07:00",
+        "label": "14/09 12:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:15:00+07:00",
+        "label": "14/09 12:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:20:00+07:00",
+        "label": "14/09 12:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:25:00+07:00",
+        "label": "14/09 12:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:30:00+07:00",
+        "label": "14/09 12:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:35:00+07:00",
+        "label": "14/09 12:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:40:00+07:00",
+        "label": "14/09 12:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:45:00+07:00",
+        "label": "14/09 12:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:50:00+07:00",
+        "label": "14/09 12:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T12:55:00+07:00",
+        "label": "14/09 12:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:00:00+07:00",
+        "label": "14/09 13:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:05:00+07:00",
+        "label": "14/09 13:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:10:00+07:00",
+        "label": "14/09 13:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:15:00+07:00",
+        "label": "14/09 13:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:20:00+07:00",
+        "label": "14/09 13:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:25:00+07:00",
+        "label": "14/09 13:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:30:00+07:00",
+        "label": "14/09 13:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:35:00+07:00",
+        "label": "14/09 13:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:40:00+07:00",
+        "label": "14/09 13:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:45:00+07:00",
+        "label": "14/09 13:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:50:00+07:00",
+        "label": "14/09 13:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T13:55:00+07:00",
+        "label": "14/09 13:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:00:00+07:00",
+        "label": "14/09 14:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:05:00+07:00",
+        "label": "14/09 14:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:10:00+07:00",
+        "label": "14/09 14:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:15:00+07:00",
+        "label": "14/09 14:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:20:00+07:00",
+        "label": "14/09 14:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:25:00+07:00",
+        "label": "14/09 14:25",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:30:00+07:00",
+        "label": "14/09 14:30",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:35:00+07:00",
+        "label": "14/09 14:35",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:40:00+07:00",
+        "label": "14/09 14:40",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:45:00+07:00",
+        "label": "14/09 14:45",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:50:00+07:00",
+        "label": "14/09 14:50",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T14:55:00+07:00",
+        "label": "14/09 14:55",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T15:00:00+07:00",
+        "label": "14/09 15:00",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T15:05:00+07:00",
+        "label": "14/09 15:05",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T15:10:00+07:00",
+        "label": "14/09 15:10",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T15:15:00+07:00",
+        "label": "14/09 15:15",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T15:20:00+07:00",
+        "label": "14/09 15:20",
+        "temperature": null,
+        "after": null
+      },
+      {
+        "time": "2026-09-14T15:25:00+07:00",
+        "label": "14/09 15:25",
+        "temperature": 30.845455,
+        "after": 30.845455
+      },
+      {
+        "time": "2026-09-14T15:30:00+07:00",
+        "label": "14/09 15:30",
+        "temperature": 28.644444,
+        "after": 28.644444
+      }
+    ]
+  },
+  "features": [
+    {
+      "time": "2026-08-20T00:00:00+07:00",
+      "label": "20/08 00:00",
+      "temperature": 0.642401,
+      "humidity": 0.596342,
+      "jam_sin": 0.0,
+      "jam_cos": 1.0,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    },
+    {
+      "time": "2026-08-20T00:05:00+07:00",
+      "label": "20/08 00:05",
+      "temperature": 0.642401,
+      "humidity": 0.600261,
+      "jam_sin": 0.021815,
+      "jam_cos": 0.999762,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    },
+    {
+      "time": "2026-08-20T00:10:00+07:00",
+      "label": "20/08 00:10",
+      "temperature": 0.642401,
+      "humidity": 0.596342,
+      "jam_sin": 0.043619,
+      "jam_cos": 0.999048,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    },
+    {
+      "time": "2026-08-20T00:15:00+07:00",
+      "label": "20/08 00:15",
+      "temperature": 0.646232,
+      "humidity": 0.597462,
+      "jam_sin": 0.065403,
+      "jam_cos": 0.997859,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    },
+    {
+      "time": "2026-08-20T00:20:00+07:00",
+      "label": "20/08 00:20",
+      "temperature": 0.644388,
+      "humidity": 0.598084,
+      "jam_sin": 0.087156,
+      "jam_cos": 0.996195,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    },
+    {
+      "time": "2026-08-20T00:25:00+07:00",
+      "label": "20/08 00:25",
+      "temperature": 0.649354,
+      "humidity": 0.596778,
+      "jam_sin": 0.108867,
+      "jam_cos": 0.994056,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    },
+    {
+      "time": "2026-08-20T00:30:00+07:00",
+      "label": "20/08 00:30",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "jam_sin": 0.130526,
+      "jam_cos": 0.991445,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    },
+    {
+      "time": "2026-08-20T00:35:00+07:00",
+      "label": "20/08 00:35",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "jam_sin": 0.152123,
+      "jam_cos": 0.988362,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0
+    }
+  ],
+  "featureColumns": [
+    "temperature",
+    "humidity",
+    "jam_sin",
+    "jam_cos",
+    "hari_sin",
+    "hari_cos",
+    "akhir_pekan"
+  ],
+  "sequence": [
+    {
+      "time": "2026-08-20T00:00:00+07:00",
+      "label": "20/08 00:00",
+      "temperature": 0.642401,
+      "humidity": 0.596342,
+      "jam_sin": 0.0,
+      "jam_cos": 1.0,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.7
+    },
+    {
+      "time": "2026-08-20T00:05:00+07:00",
+      "label": "20/08 00:05",
+      "temperature": 0.642401,
+      "humidity": 0.600261,
+      "jam_sin": 0.021815,
+      "jam_cos": 0.999762,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.7
+    },
+    {
+      "time": "2026-08-20T00:10:00+07:00",
+      "label": "20/08 00:10",
+      "temperature": 0.642401,
+      "humidity": 0.596342,
+      "jam_sin": 0.043619,
+      "jam_cos": 0.999048,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.7
+    },
+    {
+      "time": "2026-08-20T00:15:00+07:00",
+      "label": "20/08 00:15",
+      "temperature": 0.646232,
+      "humidity": 0.597462,
+      "jam_sin": 0.065403,
+      "jam_cos": 0.997859,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.742857
+    },
+    {
+      "time": "2026-08-20T00:20:00+07:00",
+      "label": "20/08 00:20",
+      "temperature": 0.644388,
+      "humidity": 0.598084,
+      "jam_sin": 0.087156,
+      "jam_cos": 0.996195,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.722222
+    },
+    {
+      "time": "2026-08-20T00:25:00+07:00",
+      "label": "20/08 00:25",
+      "temperature": 0.649354,
+      "humidity": 0.596778,
+      "jam_sin": 0.108867,
+      "jam_cos": 0.994056,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.777778
+    },
+    {
+      "time": "2026-08-20T00:30:00+07:00",
+      "label": "20/08 00:30",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "jam_sin": 0.130526,
+      "jam_cos": 0.991445,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.8
+    },
+    {
+      "time": "2026-08-20T00:35:00+07:00",
+      "label": "20/08 00:35",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "jam_sin": 0.152123,
+      "jam_cos": 0.988362,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.8
+    },
+    {
+      "time": "2026-08-20T00:40:00+07:00",
+      "label": "20/08 00:40",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "jam_sin": 0.173648,
+      "jam_cos": 0.984808,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.8
+    },
+    {
+      "time": "2026-08-20T00:45:00+07:00",
+      "label": "20/08 00:45",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "jam_sin": 0.19509,
+      "jam_cos": 0.980785,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.8
+    },
+    {
+      "time": "2026-08-20T00:50:00+07:00",
+      "label": "20/08 00:50",
+      "temperature": 0.651341,
+      "humidity": 0.600261,
+      "jam_sin": 0.21644,
+      "jam_cos": 0.976296,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.8
+    },
+    {
+      "time": "2026-08-20T00:55:00+07:00",
+      "label": "20/08 00:55",
+      "temperature": 0.651341,
+      "humidity": 0.602221,
+      "jam_sin": 0.237686,
+      "jam_cos": 0.971342,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.8
+    },
+    {
+      "time": "2026-08-20T01:00:00+07:00",
+      "label": "20/08 01:00",
+      "temperature": 0.655314,
+      "humidity": 0.603309,
+      "jam_sin": 0.258819,
+      "jam_cos": 0.965926,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.844444
+    },
+    {
+      "time": "2026-08-20T01:05:00+07:00",
+      "label": "20/08 01:05",
+      "temperature": 0.660281,
+      "humidity": 0.60418,
+      "jam_sin": 0.279829,
+      "jam_cos": 0.96005,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.9
+    },
+    {
+      "time": "2026-08-20T01:10:00+07:00",
+      "label": "20/08 01:10",
+      "temperature": 0.660281,
+      "humidity": 0.60418,
+      "jam_sin": 0.300706,
+      "jam_cos": 0.953717,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.9
+    },
+    {
+      "time": "2026-08-20T01:15:00+07:00",
+      "label": "20/08 01:15",
+      "temperature": 0.660281,
+      "humidity": 0.607446,
+      "jam_sin": 0.321439,
+      "jam_cos": 0.94693,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.9
+    },
+    {
+      "time": "2026-08-20T01:20:00+07:00",
+      "label": "20/08 01:20",
+      "temperature": 0.660281,
+      "humidity": 0.608099,
+      "jam_sin": 0.34202,
+      "jam_cos": 0.939693,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.9
+    },
+    {
+      "time": "2026-08-20T01:25:00+07:00",
+      "label": "20/08 01:25",
+      "temperature": 0.660281,
+      "humidity": 0.608099,
+      "jam_sin": 0.362438,
+      "jam_cos": 0.932008,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.9
+    },
+    {
+      "time": "2026-08-20T01:30:00+07:00",
+      "label": "20/08 01:30",
+      "temperature": 0.660281,
+      "humidity": 0.610451,
+      "jam_sin": 0.382683,
+      "jam_cos": 0.92388,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.9
+    },
+    {
+      "time": "2026-08-20T01:35:00+07:00",
+      "label": "20/08 01:35",
+      "temperature": 0.662069,
+      "humidity": 0.612018,
+      "jam_sin": 0.402747,
+      "jam_cos": 0.915311,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.92
+    },
+    {
+      "time": "2026-08-20T01:40:00+07:00",
+      "label": "20/08 01:40",
+      "temperature": 0.664751,
+      "humidity": 0.612018,
+      "jam_sin": 0.422618,
+      "jam_cos": 0.906308,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.95
+    },
+    {
+      "time": "2026-08-20T01:45:00+07:00",
+      "label": "20/08 01:45",
+      "temperature": 0.667234,
+      "humidity": 0.61376,
+      "jam_sin": 0.442289,
+      "jam_cos": 0.896873,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.977778
+    },
+    {
+      "time": "2026-08-20T01:50:00+07:00",
+      "label": "20/08 01:50",
+      "temperature": 0.669221,
+      "humidity": 0.615937,
+      "jam_sin": 0.461749,
+      "jam_cos": 0.887011,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T01:55:00+07:00",
+      "label": "20/08 01:55",
+      "temperature": 0.669221,
+      "humidity": 0.615937,
+      "jam_sin": 0.480989,
+      "jam_cos": 0.876727,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T02:00:00+07:00",
+      "label": "20/08 02:00",
+      "temperature": 0.669221,
+      "humidity": 0.618289,
+      "jam_sin": 0.5,
+      "jam_cos": 0.866025,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T02:05:00+07:00",
+      "label": "20/08 02:05",
+      "temperature": 0.669221,
+      "humidity": 0.617244,
+      "jam_sin": 0.518773,
+      "jam_cos": 0.854912,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T02:10:00+07:00",
+      "label": "20/08 02:10",
+      "temperature": 0.669221,
+      "humidity": 0.618877,
+      "jam_sin": 0.5373,
+      "jam_cos": 0.843391,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T02:15:00+07:00",
+      "label": "20/08 02:15",
+      "temperature": 0.669221,
+      "humidity": 0.619856,
+      "jam_sin": 0.55557,
+      "jam_cos": 0.83147,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T02:20:00+07:00",
+      "label": "20/08 02:20",
+      "temperature": 0.672201,
+      "humidity": 0.619856,
+      "jam_sin": 0.573576,
+      "jam_cos": 0.819152,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.033333
+    },
+    {
+      "time": "2026-08-20T02:25:00+07:00",
+      "label": "20/08 02:25",
+      "temperature": 0.674585,
+      "humidity": 0.619856,
+      "jam_sin": 0.59131,
+      "jam_cos": 0.806445,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.06
+    },
+    {
+      "time": "2026-08-20T02:30:00+07:00",
+      "label": "20/08 02:30",
+      "temperature": 0.672797,
+      "humidity": 0.621424,
+      "jam_sin": 0.608761,
+      "jam_cos": 0.793353,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.04
+    },
+    {
+      "time": "2026-08-20T02:35:00+07:00",
+      "label": "20/08 02:35",
+      "temperature": 0.675607,
+      "humidity": 0.622656,
+      "jam_sin": 0.625923,
+      "jam_cos": 0.779884,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.071429
+    },
+    {
+      "time": "2026-08-20T02:40:00+07:00",
+      "label": "20/08 02:40",
+      "temperature": 0.675181,
+      "humidity": 0.623775,
+      "jam_sin": 0.642788,
+      "jam_cos": 0.766044,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.066667
+    },
+    {
+      "time": "2026-08-20T02:45:00+07:00",
+      "label": "20/08 02:45",
+      "temperature": 0.678161,
+      "humidity": 0.625735,
+      "jam_sin": 0.659346,
+      "jam_cos": 0.75184,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T02:50:00+07:00",
+      "label": "20/08 02:50",
+      "temperature": 0.678161,
+      "humidity": 0.625082,
+      "jam_sin": 0.67559,
+      "jam_cos": 0.737277,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T02:55:00+07:00",
+      "label": "20/08 02:55",
+      "temperature": 0.678161,
+      "humidity": 0.626127,
+      "jam_sin": 0.691513,
+      "jam_cos": 0.722364,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T03:00:00+07:00",
+      "label": "20/08 03:00",
+      "temperature": 0.678161,
+      "humidity": 0.627694,
+      "jam_sin": 0.707107,
+      "jam_cos": 0.707107,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T03:05:00+07:00",
+      "label": "20/08 03:05",
+      "temperature": 0.678161,
+      "humidity": 0.627694,
+      "jam_sin": 0.722364,
+      "jam_cos": 0.691513,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T03:10:00+07:00",
+      "label": "20/08 03:10",
+      "temperature": 0.678161,
+      "humidity": 0.629001,
+      "jam_sin": 0.737277,
+      "jam_cos": 0.67559,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T03:15:00+07:00",
+      "label": "20/08 03:15",
+      "temperature": 0.680148,
+      "humidity": 0.630307,
+      "jam_sin": 0.75184,
+      "jam_cos": 0.659346,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.122222
+    },
+    {
+      "time": "2026-08-20T03:20:00+07:00",
+      "label": "20/08 03:20",
+      "temperature": 0.682631,
+      "humidity": 0.630144,
+      "jam_sin": 0.766044,
+      "jam_cos": 0.642788,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.15
+    },
+    {
+      "time": "2026-08-20T03:25:00+07:00",
+      "label": "20/08 03:25",
+      "temperature": 0.687101,
+      "humidity": 0.631613,
+      "jam_sin": 0.779884,
+      "jam_cos": 0.625923,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T03:30:00+07:00",
+      "label": "20/08 03:30",
+      "temperature": 0.682134,
+      "humidity": 0.634661,
+      "jam_sin": 0.793353,
+      "jam_cos": 0.608761,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.144444
+    },
+    {
+      "time": "2026-08-20T03:35:00+07:00",
+      "label": "20/08 03:35",
+      "temperature": 0.684121,
+      "humidity": 0.635532,
+      "jam_sin": 0.806445,
+      "jam_cos": 0.59131,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.166667
+    },
+    {
+      "time": "2026-08-20T03:40:00+07:00",
+      "label": "20/08 03:40",
+      "temperature": 0.687101,
+      "humidity": 0.635532,
+      "jam_sin": 0.819152,
+      "jam_cos": 0.573576,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T03:45:00+07:00",
+      "label": "20/08 03:45",
+      "temperature": 0.687101,
+      "humidity": 0.636185,
+      "jam_sin": 0.83147,
+      "jam_cos": 0.55557,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T03:50:00+07:00",
+      "label": "20/08 03:50",
+      "temperature": 0.687101,
+      "humidity": 0.636839,
+      "jam_sin": 0.843391,
+      "jam_cos": 0.5373,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T03:55:00+07:00",
+      "label": "20/08 03:55",
+      "temperature": 0.687101,
+      "humidity": 0.639451,
+      "jam_sin": 0.854912,
+      "jam_cos": 0.518773,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T04:00:00+07:00",
+      "label": "20/08 04:00",
+      "temperature": 0.687101,
+      "humidity": 0.640235,
+      "jam_sin": 0.866025,
+      "jam_cos": 0.5,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T04:05:00+07:00",
+      "label": "20/08 04:05",
+      "temperature": 0.687101,
+      "humidity": 0.640758,
+      "jam_sin": 0.876727,
+      "jam_cos": 0.480989,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T04:10:00+07:00",
+      "label": "20/08 04:10",
+      "temperature": 0.687101,
+      "humidity": 0.64337,
+      "jam_sin": 0.887011,
+      "jam_cos": 0.461749,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T04:15:00+07:00",
+      "label": "20/08 04:15",
+      "temperature": 0.687101,
+      "humidity": 0.64337,
+      "jam_sin": 0.896873,
+      "jam_cos": 0.442289,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T04:20:00+07:00",
+      "label": "20/08 04:20",
+      "temperature": 0.687101,
+      "humidity": 0.64533,
+      "jam_sin": 0.906308,
+      "jam_cos": 0.422618,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T04:25:00+07:00",
+      "label": "20/08 04:25",
+      "temperature": 0.687101,
+      "humidity": 0.645983,
+      "jam_sin": 0.915311,
+      "jam_cos": 0.402747,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T04:30:00+07:00",
+      "label": "20/08 04:30",
+      "temperature": 0.688591,
+      "humidity": 0.647943,
+      "jam_sin": 0.92388,
+      "jam_cos": 0.382683,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.216667
+    },
+    {
+      "time": "2026-08-20T04:35:00+07:00",
+      "label": "20/08 04:35",
+      "temperature": 0.690677,
+      "humidity": 0.648857,
+      "jam_sin": 0.932008,
+      "jam_cos": 0.362438,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.24
+    },
+    {
+      "time": "2026-08-20T04:40:00+07:00",
+      "label": "20/08 04:40",
+      "temperature": 0.694054,
+      "humidity": 0.649467,
+      "jam_sin": 0.939693,
+      "jam_cos": 0.34202,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.277778
+    },
+    {
+      "time": "2026-08-20T04:45:00+07:00",
+      "label": "20/08 04:45",
+      "temperature": 0.691571,
+      "humidity": 0.651208,
+      "jam_sin": 0.94693,
+      "jam_cos": 0.321439,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.25
+    },
+    {
+      "time": "2026-08-20T04:50:00+07:00",
+      "label": "20/08 04:50",
+      "temperature": 0.696041,
+      "humidity": 0.652188,
+      "jam_sin": 0.953717,
+      "jam_cos": 0.300706,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T04:55:00+07:00",
+      "label": "20/08 04:55",
+      "temperature": 0.696041,
+      "humidity": 0.655127,
+      "jam_sin": 0.96005,
+      "jam_cos": 0.279829,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:00:00+07:00",
+      "label": "20/08 05:00",
+      "temperature": 0.696041,
+      "humidity": 0.655127,
+      "jam_sin": 0.965926,
+      "jam_cos": 0.258819,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:05:00+07:00",
+      "label": "20/08 05:05",
+      "temperature": 0.696041,
+      "humidity": 0.655127,
+      "jam_sin": 0.971342,
+      "jam_cos": 0.237686,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:10:00+07:00",
+      "label": "20/08 05:10",
+      "temperature": 0.696041,
+      "humidity": 0.656434,
+      "jam_sin": 0.976296,
+      "jam_cos": 0.21644,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:15:00+07:00",
+      "label": "20/08 05:15",
+      "temperature": 0.696041,
+      "humidity": 0.65774,
+      "jam_sin": 0.980785,
+      "jam_cos": 0.19509,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:20:00+07:00",
+      "label": "20/08 05:20",
+      "temperature": 0.696041,
+      "humidity": 0.659046,
+      "jam_sin": 0.984808,
+      "jam_cos": 0.173648,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:25:00+07:00",
+      "label": "20/08 05:25",
+      "temperature": 0.696041,
+      "humidity": 0.662312,
+      "jam_sin": 0.988362,
+      "jam_cos": 0.152123,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:30:00+07:00",
+      "label": "20/08 05:30",
+      "temperature": 0.696041,
+      "humidity": 0.661006,
+      "jam_sin": 0.991445,
+      "jam_cos": 0.130526,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:35:00+07:00",
+      "label": "20/08 05:35",
+      "temperature": 0.697829,
+      "humidity": 0.662965,
+      "jam_sin": 0.994056,
+      "jam_cos": 0.108867,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.32
+    },
+    {
+      "time": "2026-08-20T05:40:00+07:00",
+      "label": "20/08 05:40",
+      "temperature": 0.696041,
+      "humidity": 0.664085,
+      "jam_sin": 0.996195,
+      "jam_cos": 0.087156,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T05:45:00+07:00",
+      "label": "20/08 05:45",
+      "temperature": 0.698028,
+      "humidity": 0.665143,
+      "jam_sin": 0.997859,
+      "jam_cos": 0.065403,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.322222
+    },
+    {
+      "time": "2026-08-20T05:50:00+07:00",
+      "label": "20/08 05:50",
+      "temperature": 0.703863,
+      "humidity": 0.665905,
+      "jam_sin": 0.999048,
+      "jam_cos": 0.043619,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3875
+    },
+    {
+      "time": "2026-08-20T05:55:00+07:00",
+      "label": "20/08 05:55",
+      "temperature": 0.703704,
+      "humidity": 0.666884,
+      "jam_sin": 0.999762,
+      "jam_cos": 0.021815,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.385714
+    },
+    {
+      "time": "2026-08-20T06:00:00+07:00",
+      "label": "20/08 06:00",
+      "temperature": 0.702427,
+      "humidity": 0.668004,
+      "jam_sin": 1.0,
+      "jam_cos": 0.0,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.371429
+    },
+    {
+      "time": "2026-08-20T06:05:00+07:00",
+      "label": "20/08 06:05",
+      "temperature": 0.704981,
+      "humidity": 0.668844,
+      "jam_sin": 0.999762,
+      "jam_cos": -0.021815,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:10:00+07:00",
+      "label": "20/08 06:10",
+      "temperature": 0.700511,
+      "humidity": 0.670803,
+      "jam_sin": 0.999048,
+      "jam_cos": -0.043619,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.35
+    },
+    {
+      "time": "2026-08-20T06:15:00+07:00",
+      "label": "20/08 06:15",
+      "temperature": 0.704981,
+      "humidity": 0.670803,
+      "jam_sin": 0.997859,
+      "jam_cos": -0.065403,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:20:00+07:00",
+      "label": "20/08 06:20",
+      "temperature": 0.704981,
+      "humidity": 0.670803,
+      "jam_sin": 0.996195,
+      "jam_cos": -0.087156,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:25:00+07:00",
+      "label": "20/08 06:25",
+      "temperature": 0.704981,
+      "humidity": 0.672763,
+      "jam_sin": 0.994056,
+      "jam_cos": -0.108867,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:30:00+07:00",
+      "label": "20/08 06:30",
+      "temperature": 0.704981,
+      "humidity": 0.672763,
+      "jam_sin": 0.991445,
+      "jam_cos": -0.130526,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:35:00+07:00",
+      "label": "20/08 06:35",
+      "temperature": 0.704981,
+      "humidity": 0.674722,
+      "jam_sin": 0.988362,
+      "jam_cos": -0.152123,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:40:00+07:00",
+      "label": "20/08 06:40",
+      "temperature": 0.704981,
+      "humidity": 0.676682,
+      "jam_sin": 0.984808,
+      "jam_cos": -0.173648,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:45:00+07:00",
+      "label": "20/08 06:45",
+      "temperature": 0.704981,
+      "humidity": 0.676029,
+      "jam_sin": 0.980785,
+      "jam_cos": -0.19509,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:50:00+07:00",
+      "label": "20/08 06:50",
+      "temperature": 0.704981,
+      "humidity": 0.674722,
+      "jam_sin": 0.976296,
+      "jam_cos": -0.21644,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T06:55:00+07:00",
+      "label": "20/08 06:55",
+      "temperature": 0.704981,
+      "humidity": 0.673416,
+      "jam_sin": 0.971342,
+      "jam_cos": -0.237686,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T07:00:00+07:00",
+      "label": "20/08 07:00",
+      "temperature": 0.704981,
+      "humidity": 0.673416,
+      "jam_sin": 0.965926,
+      "jam_cos": -0.258819,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T07:05:00+07:00",
+      "label": "20/08 07:05",
+      "temperature": 0.704981,
+      "humidity": 0.670803,
+      "jam_sin": 0.96005,
+      "jam_cos": -0.279829,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T07:10:00+07:00",
+      "label": "20/08 07:10",
+      "temperature": 0.704981,
+      "humidity": 0.669236,
+      "jam_sin": 0.953717,
+      "jam_cos": -0.300706,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T07:15:00+07:00",
+      "label": "20/08 07:15",
+      "temperature": 0.704981,
+      "humidity": 0.666884,
+      "jam_sin": 0.94693,
+      "jam_cos": -0.321439,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T07:20:00+07:00",
+      "label": "20/08 07:20",
+      "temperature": 0.704981,
+      "humidity": 0.665905,
+      "jam_sin": 0.939693,
+      "jam_cos": -0.34202,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T07:25:00+07:00",
+      "label": "20/08 07:25",
+      "temperature": 0.704981,
+      "humidity": 0.662965,
+      "jam_sin": 0.932008,
+      "jam_cos": -0.362438,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T07:30:00+07:00",
+      "label": "20/08 07:30",
+      "temperature": 0.707961,
+      "humidity": 0.660353,
+      "jam_sin": 0.92388,
+      "jam_cos": -0.382683,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.433333
+    },
+    {
+      "time": "2026-08-20T07:35:00+07:00",
+      "label": "20/08 07:35",
+      "temperature": 0.710941,
+      "humidity": 0.659046,
+      "jam_sin": 0.915311,
+      "jam_cos": -0.402747,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.466667
+    },
+    {
+      "time": "2026-08-20T07:40:00+07:00",
+      "label": "20/08 07:40",
+      "temperature": 0.711686,
+      "humidity": 0.656597,
+      "jam_sin": 0.906308,
+      "jam_cos": -0.422618,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.475
+    },
+    {
+      "time": "2026-08-20T07:45:00+07:00",
+      "label": "20/08 07:45",
+      "temperature": 0.713921,
+      "humidity": 0.653168,
+      "jam_sin": 0.896873,
+      "jam_cos": -0.442289,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T07:50:00+07:00",
+      "label": "20/08 07:50",
+      "temperature": 0.713921,
+      "humidity": 0.651992,
+      "jam_sin": 0.887011,
+      "jam_cos": -0.461749,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T07:55:00+07:00",
+      "label": "20/08 07:55",
+      "temperature": 0.713921,
+      "humidity": 0.651208,
+      "jam_sin": 0.876727,
+      "jam_cos": -0.480989,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T08:00:00+07:00",
+      "label": "20/08 08:00",
+      "temperature": 0.713921,
+      "humidity": 0.651208,
+      "jam_sin": 0.866025,
+      "jam_cos": -0.5,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T08:05:00+07:00",
+      "label": "20/08 08:05",
+      "temperature": 0.713921,
+      "humidity": 0.652515,
+      "jam_sin": 0.854912,
+      "jam_cos": -0.518773,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T08:10:00+07:00",
+      "label": "20/08 08:10",
+      "temperature": 0.719285,
+      "humidity": 0.651208,
+      "jam_sin": 0.843391,
+      "jam_cos": -0.5373,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.56
+    },
+    {
+      "time": "2026-08-20T08:15:00+07:00",
+      "label": "20/08 08:15",
+      "temperature": 0.722861,
+      "humidity": 0.652328,
+      "jam_sin": 0.83147,
+      "jam_cos": -0.55557,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.6
+    },
+    {
+      "time": "2026-08-20T08:20:00+07:00",
+      "label": "20/08 08:20",
+      "temperature": 0.721371,
+      "humidity": 0.661659,
+      "jam_sin": 0.819152,
+      "jam_cos": -0.573576,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.583333
+    },
+    {
+      "time": "2026-08-20T08:25:00+07:00",
+      "label": "20/08 08:25",
+      "temperature": 0.718887,
+      "humidity": 0.670803,
+      "jam_sin": 0.806445,
+      "jam_cos": -0.59131,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.555556
+    },
+    {
+      "time": "2026-08-20T08:30:00+07:00",
+      "label": "20/08 08:30",
+      "temperature": 0.715198,
+      "humidity": 0.668564,
+      "jam_sin": 0.793353,
+      "jam_cos": -0.608761,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.514286
+    },
+    {
+      "time": "2026-08-20T08:35:00+07:00",
+      "label": "20/08 08:35",
+      "temperature": 0.713921,
+      "humidity": 0.660353,
+      "jam_sin": 0.779884,
+      "jam_cos": -0.625923,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T08:40:00+07:00",
+      "label": "20/08 08:40",
+      "temperature": 0.713921,
+      "humidity": 0.645722,
+      "jam_sin": 0.766044,
+      "jam_cos": -0.642788,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T08:45:00+07:00",
+      "label": "20/08 08:45",
+      "temperature": 0.713921,
+      "humidity": 0.629001,
+      "jam_sin": 0.75184,
+      "jam_cos": -0.659346,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T08:50:00+07:00",
+      "label": "20/08 08:50",
+      "temperature": 0.713921,
+      "humidity": 0.602874,
+      "jam_sin": 0.737277,
+      "jam_cos": -0.67559,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.5
+    },
+    {
+      "time": "2026-08-20T08:55:00+07:00",
+      "label": "20/08 08:55",
+      "temperature": 0.711367,
+      "humidity": 0.573948,
+      "jam_sin": 0.722364,
+      "jam_cos": -0.691513,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.471429
+    },
+    {
+      "time": "2026-08-20T09:00:00+07:00",
+      "label": "20/08 09:00",
+      "temperature": 0.707961,
+      "humidity": 0.553669,
+      "jam_sin": 0.707107,
+      "jam_cos": -0.707107,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.433333
+    },
+    {
+      "time": "2026-08-20T09:05:00+07:00",
+      "label": "20/08 09:05",
+      "temperature": 0.704981,
+      "humidity": 0.531399,
+      "jam_sin": 0.691513,
+      "jam_cos": -0.722364,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T09:10:00+07:00",
+      "label": "20/08 09:10",
+      "temperature": 0.704981,
+      "humidity": 0.506205,
+      "jam_sin": 0.67559,
+      "jam_cos": -0.737277,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T09:15:00+07:00",
+      "label": "20/08 09:15",
+      "temperature": 0.704981,
+      "humidity": 0.489876,
+      "jam_sin": 0.659346,
+      "jam_cos": -0.75184,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.4
+    },
+    {
+      "time": "2026-08-20T09:20:00+07:00",
+      "label": "20/08 09:20",
+      "temperature": 0.702746,
+      "humidity": 0.479752,
+      "jam_sin": 0.642788,
+      "jam_cos": -0.766044,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.375
+    },
+    {
+      "time": "2026-08-20T09:25:00+07:00",
+      "label": "20/08 09:25",
+      "temperature": 0.702001,
+      "humidity": 0.477466,
+      "jam_sin": 0.625923,
+      "jam_cos": -0.779884,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.366667
+    },
+    {
+      "time": "2026-08-20T09:30:00+07:00",
+      "label": "20/08 09:30",
+      "temperature": 0.700511,
+      "humidity": 0.483181,
+      "jam_sin": 0.608761,
+      "jam_cos": -0.793353,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.35
+    },
+    {
+      "time": "2026-08-20T09:35:00+07:00",
+      "label": "20/08 09:35",
+      "temperature": 0.697829,
+      "humidity": 0.488178,
+      "jam_sin": 0.59131,
+      "jam_cos": -0.806445,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.32
+    },
+    {
+      "time": "2026-08-20T09:40:00+07:00",
+      "label": "20/08 09:40",
+      "temperature": 0.696041,
+      "humidity": 0.489223,
+      "jam_sin": 0.573576,
+      "jam_cos": -0.819152,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T09:45:00+07:00",
+      "label": "20/08 09:45",
+      "temperature": 0.696041,
+      "humidity": 0.489549,
+      "jam_sin": 0.55557,
+      "jam_cos": -0.83147,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T09:50:00+07:00",
+      "label": "20/08 09:50",
+      "temperature": 0.696041,
+      "humidity": 0.487394,
+      "jam_sin": 0.5373,
+      "jam_cos": -0.843391,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T09:55:00+07:00",
+      "label": "20/08 09:55",
+      "temperature": 0.696041,
+      "humidity": 0.482691,
+      "jam_sin": 0.518773,
+      "jam_cos": -0.854912,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T10:00:00+07:00",
+      "label": "20/08 10:00",
+      "temperature": 0.696041,
+      "humidity": 0.477466,
+      "jam_sin": 0.5,
+      "jam_cos": -0.866025,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T10:05:00+07:00",
+      "label": "20/08 10:05",
+      "temperature": 0.696041,
+      "humidity": 0.470281,
+      "jam_sin": 0.480989,
+      "jam_cos": -0.876727,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T10:10:00+07:00",
+      "label": "20/08 10:10",
+      "temperature": 0.696041,
+      "humidity": 0.463096,
+      "jam_sin": 0.461749,
+      "jam_cos": -0.887011,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.3
+    },
+    {
+      "time": "2026-08-20T10:15:00+07:00",
+      "label": "20/08 10:15",
+      "temperature": 0.693806,
+      "humidity": 0.455748,
+      "jam_sin": 0.442289,
+      "jam_cos": -0.896873,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.275
+    },
+    {
+      "time": "2026-08-20T10:20:00+07:00",
+      "label": "20/08 10:20",
+      "temperature": 0.687101,
+      "humidity": 0.44644,
+      "jam_sin": 0.422618,
+      "jam_cos": -0.906308,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T10:25:00+07:00",
+      "label": "20/08 10:25",
+      "temperature": 0.687101,
+      "humidity": 0.43501,
+      "jam_sin": 0.402747,
+      "jam_cos": -0.915311,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T10:30:00+07:00",
+      "label": "20/08 10:30",
+      "temperature": 0.687101,
+      "humidity": 0.425212,
+      "jam_sin": 0.382683,
+      "jam_cos": -0.92388,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.2
+    },
+    {
+      "time": "2026-08-20T10:35:00+07:00",
+      "label": "20/08 10:35",
+      "temperature": 0.680715,
+      "humidity": 0.416628,
+      "jam_sin": 0.362438,
+      "jam_cos": -0.932008,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.128571
+    },
+    {
+      "time": "2026-08-20T10:40:00+07:00",
+      "label": "20/08 10:40",
+      "temperature": 0.678161,
+      "humidity": 0.408883,
+      "jam_sin": 0.34202,
+      "jam_cos": -0.939693,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T10:45:00+07:00",
+      "label": "20/08 10:45",
+      "temperature": 0.678161,
+      "humidity": 0.404964,
+      "jam_sin": 0.321439,
+      "jam_cos": -0.94693,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T10:50:00+07:00",
+      "label": "20/08 10:50",
+      "temperature": 0.678161,
+      "humidity": 0.403005,
+      "jam_sin": 0.300706,
+      "jam_cos": -0.953717,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.1
+    },
+    {
+      "time": "2026-08-20T10:55:00+07:00",
+      "label": "20/08 10:55",
+      "temperature": 0.675607,
+      "humidity": 0.403191,
+      "jam_sin": 0.279829,
+      "jam_cos": -0.96005,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.071429
+    },
+    {
+      "time": "2026-08-20T11:00:00+07:00",
+      "label": "20/08 11:00",
+      "temperature": 0.671208,
+      "humidity": 0.406053,
+      "jam_sin": 0.258819,
+      "jam_cos": -0.965926,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.022222
+    },
+    {
+      "time": "2026-08-20T11:05:00+07:00",
+      "label": "20/08 11:05",
+      "temperature": 0.669221,
+      "humidity": 0.4097,
+      "jam_sin": 0.237686,
+      "jam_cos": -0.971342,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T11:10:00+07:00",
+      "label": "20/08 11:10",
+      "temperature": 0.669221,
+      "humidity": 0.408883,
+      "jam_sin": 0.21644,
+      "jam_cos": -0.976296,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T11:15:00+07:00",
+      "label": "20/08 11:15",
+      "temperature": 0.669221,
+      "humidity": 0.410581,
+      "jam_sin": 0.19509,
+      "jam_cos": -0.980785,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T11:20:00+07:00",
+      "label": "20/08 11:20",
+      "temperature": 0.669221,
+      "humidity": 0.405617,
+      "jam_sin": 0.173648,
+      "jam_cos": -0.984808,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T11:25:00+07:00",
+      "label": "20/08 11:25",
+      "temperature": 0.669221,
+      "humidity": 0.401698,
+      "jam_sin": 0.152123,
+      "jam_cos": -0.988362,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T11:30:00+07:00",
+      "label": "20/08 11:30",
+      "temperature": 0.669221,
+      "humidity": 0.39582,
+      "jam_sin": 0.130526,
+      "jam_cos": -0.991445,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 31.0
+    },
+    {
+      "time": "2026-08-20T11:35:00+07:00",
+      "label": "20/08 11:35",
+      "temperature": 0.640613,
+      "humidity": 0.429784,
+      "jam_sin": 0.108867,
+      "jam_cos": -0.994056,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.68
+    },
+    {
+      "time": "2026-08-20T11:40:00+07:00",
+      "label": "20/08 11:40",
+      "temperature": 0.588761,
+      "humidity": 0.451339,
+      "jam_sin": 0.087156,
+      "jam_cos": -0.996195,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 30.1
+    },
+    {
+      "time": "2026-08-20T11:45:00+07:00",
+      "label": "20/08 11:45",
+      "temperature": 0.549649,
+      "humidity": 0.461626,
+      "jam_sin": 0.065403,
+      "jam_cos": -0.997859,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 29.6625
+    },
+    {
+      "time": "2026-08-20T11:50:00+07:00",
+      "label": "20/08 11:50",
+      "temperature": 0.522829,
+      "humidity": 0.479262,
+      "jam_sin": 0.043619,
+      "jam_cos": -0.999048,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 29.3625
+    },
+    {
+      "time": "2026-08-20T11:55:00+07:00",
+      "label": "20/08 11:55",
+      "temperature": 0.509579,
+      "humidity": 0.513483,
+      "jam_sin": 0.021815,
+      "jam_cos": -0.999762,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 29.214286
+    },
+    {
+      "time": "2026-08-20T12:00:00+07:00",
+      "label": "20/08 12:00",
+      "temperature": 0.496009,
+      "humidity": 0.548334,
+      "jam_sin": 0.0,
+      "jam_cos": -1.0,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 29.0625
+    },
+    {
+      "time": "2026-08-20T12:05:00+07:00",
+      "label": "20/08 12:05",
+      "temperature": 0.490421,
+      "humidity": 0.5774,
+      "jam_sin": -0.021815,
+      "jam_cos": -0.999762,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 29.0
+    },
+    {
+      "time": "2026-08-20T12:10:00+07:00",
+      "label": "20/08 12:10",
+      "temperature": 0.482599,
+      "humidity": 0.597812,
+      "jam_sin": -0.043619,
+      "jam_cos": -0.999048,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.9125
+    },
+    {
+      "time": "2026-08-20T12:15:00+07:00",
+      "label": "20/08 12:15",
+      "temperature": 0.478501,
+      "humidity": 0.623775,
+      "jam_sin": -0.065403,
+      "jam_cos": -0.997859,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.866667
+    },
+    {
+      "time": "2026-08-20T12:20:00+07:00",
+      "label": "20/08 12:20",
+      "temperature": 0.472542,
+      "humidity": 0.642717,
+      "jam_sin": -0.087156,
+      "jam_cos": -0.996195,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.8
+    },
+    {
+      "time": "2026-08-20T12:25:00+07:00",
+      "label": "20/08 12:25",
+      "temperature": 0.469189,
+      "humidity": 0.663945,
+      "jam_sin": -0.108867,
+      "jam_cos": -0.994056,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.7625
+    },
+    {
+      "time": "2026-08-20T12:30:00+07:00",
+      "label": "20/08 12:30",
+      "temperature": 0.463602,
+      "humidity": 0.687786,
+      "jam_sin": -0.130526,
+      "jam_cos": -0.991445,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.7
+    },
+    {
+      "time": "2026-08-20T12:35:00+07:00",
+      "label": "20/08 12:35",
+      "temperature": 0.463602,
+      "humidity": 0.694971,
+      "jam_sin": -0.152123,
+      "jam_cos": -0.988362,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.7
+    },
+    {
+      "time": "2026-08-20T12:40:00+07:00",
+      "label": "20/08 12:40",
+      "temperature": 0.455779,
+      "humidity": 0.701176,
+      "jam_sin": -0.173648,
+      "jam_cos": -0.984808,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.6125
+    },
+    {
+      "time": "2026-08-20T12:45:00+07:00",
+      "label": "20/08 12:45",
+      "temperature": 0.454662,
+      "humidity": 0.724363,
+      "jam_sin": -0.19509,
+      "jam_cos": -0.980785,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.6
+    },
+    {
+      "time": "2026-08-20T12:50:00+07:00",
+      "label": "20/08 12:50",
+      "temperature": 0.454662,
+      "humidity": 0.745265,
+      "jam_sin": -0.21644,
+      "jam_cos": -0.976296,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.6
+    },
+    {
+      "time": "2026-08-20T12:55:00+07:00",
+      "label": "20/08 12:55",
+      "temperature": 0.452107,
+      "humidity": 0.741905,
+      "jam_sin": -0.237686,
+      "jam_cos": -0.971342,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.571429
+    },
+    {
+      "time": "2026-08-20T13:00:00+07:00",
+      "label": "20/08 13:00",
+      "temperature": 0.445722,
+      "humidity": 0.737427,
+      "jam_sin": -0.258819,
+      "jam_cos": -0.965926,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.5
+    },
+    {
+      "time": "2026-08-20T13:05:00+07:00",
+      "label": "20/08 13:05",
+      "temperature": 0.445722,
+      "humidity": 0.756368,
+      "jam_sin": -0.279829,
+      "jam_cos": -0.96005,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.5
+    },
+    {
+      "time": "2026-08-20T13:10:00+07:00",
+      "label": "20/08 13:10",
+      "temperature": 0.445722,
+      "humidity": 0.758981,
+      "jam_sin": -0.300706,
+      "jam_cos": -0.953717,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.5
+    },
+    {
+      "time": "2026-08-20T13:15:00+07:00",
+      "label": "20/08 13:15",
+      "temperature": 0.436782,
+      "humidity": 0.755342,
+      "jam_sin": -0.321439,
+      "jam_cos": -0.94693,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.4
+    },
+    {
+      "time": "2026-08-20T13:20:00+07:00",
+      "label": "20/08 13:20",
+      "temperature": 0.436782,
+      "humidity": 0.74853,
+      "jam_sin": -0.34202,
+      "jam_cos": -0.939693,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.4
+    },
+    {
+      "time": "2026-08-20T13:25:00+07:00",
+      "label": "20/08 13:25",
+      "temperature": 0.427842,
+      "humidity": 0.737986,
+      "jam_sin": -0.362438,
+      "jam_cos": -0.932008,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.3
+    },
+    {
+      "time": "2026-08-20T13:30:00+07:00",
+      "label": "20/08 13:30",
+      "temperature": 0.427842,
+      "humidity": 0.726323,
+      "jam_sin": -0.382683,
+      "jam_cos": -0.92388,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.3
+    },
+    {
+      "time": "2026-08-20T13:35:00+07:00",
+      "label": "20/08 13:35",
+      "temperature": 0.422254,
+      "humidity": 0.720281,
+      "jam_sin": -0.402747,
+      "jam_cos": -0.915311,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.2375
+    },
+    {
+      "time": "2026-08-20T13:40:00+07:00",
+      "label": "20/08 13:40",
+      "temperature": 0.418902,
+      "humidity": 0.728282,
+      "jam_sin": -0.422618,
+      "jam_cos": -0.906308,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.2
+    },
+    {
+      "time": "2026-08-20T13:45:00+07:00",
+      "label": "20/08 13:45",
+      "temperature": 0.416347,
+      "humidity": 0.730708,
+      "jam_sin": -0.442289,
+      "jam_cos": -0.896873,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.171429
+    },
+    {
+      "time": "2026-08-20T13:50:00+07:00",
+      "label": "20/08 13:50",
+      "temperature": 0.414432,
+      "humidity": 0.730078,
+      "jam_sin": -0.461749,
+      "jam_cos": -0.887011,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.15
+    },
+    {
+      "time": "2026-08-20T13:55:00+07:00",
+      "label": "20/08 13:55",
+      "temperature": 0.409962,
+      "humidity": 0.728935,
+      "jam_sin": -0.480989,
+      "jam_cos": -0.876727,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T14:00:00+07:00",
+      "label": "20/08 14:00",
+      "temperature": 0.409962,
+      "humidity": 0.727629,
+      "jam_sin": -0.5,
+      "jam_cos": -0.866025,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T14:05:00+07:00",
+      "label": "20/08 14:05",
+      "temperature": 0.407407,
+      "humidity": 0.720631,
+      "jam_sin": -0.518773,
+      "jam_cos": -0.854912,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.071429
+    },
+    {
+      "time": "2026-08-20T14:10:00+07:00",
+      "label": "20/08 14:10",
+      "temperature": 0.403576,
+      "humidity": 0.717831,
+      "jam_sin": -0.5373,
+      "jam_cos": -0.843391,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.028571
+    },
+    {
+      "time": "2026-08-20T14:15:00+07:00",
+      "label": "20/08 14:15",
+      "temperature": 0.401022,
+      "humidity": 0.714892,
+      "jam_sin": -0.55557,
+      "jam_cos": -0.83147,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T14:20:00+07:00",
+      "label": "20/08 14:20",
+      "temperature": 0.401022,
+      "humidity": 0.72175,
+      "jam_sin": -0.573576,
+      "jam_cos": -0.819152,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T14:25:00+07:00",
+      "label": "20/08 14:25",
+      "temperature": 0.401022,
+      "humidity": 0.733508,
+      "jam_sin": -0.59131,
+      "jam_cos": -0.806445,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T14:30:00+07:00",
+      "label": "20/08 14:30",
+      "temperature": 0.401022,
+      "humidity": 0.729589,
+      "jam_sin": -0.608761,
+      "jam_cos": -0.793353,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T14:35:00+07:00",
+      "label": "20/08 14:35",
+      "temperature": 0.401022,
+      "humidity": 0.739386,
+      "jam_sin": -0.625923,
+      "jam_cos": -0.779884,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T14:40:00+07:00",
+      "label": "20/08 14:40",
+      "temperature": 0.398787,
+      "humidity": 0.731058,
+      "jam_sin": -0.642788,
+      "jam_cos": -0.766044,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.975
+    },
+    {
+      "time": "2026-08-20T14:45:00+07:00",
+      "label": "20/08 14:45",
+      "temperature": 0.398042,
+      "humidity": 0.725234,
+      "jam_sin": -0.659346,
+      "jam_cos": -0.75184,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.966667
+    },
+    {
+      "time": "2026-08-20T14:50:00+07:00",
+      "label": "20/08 14:50",
+      "temperature": 0.392082,
+      "humidity": 0.720183,
+      "jam_sin": -0.67559,
+      "jam_cos": -0.737277,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9
+    },
+    {
+      "time": "2026-08-20T14:55:00+07:00",
+      "label": "20/08 14:55",
+      "temperature": 0.392082,
+      "humidity": 0.716525,
+      "jam_sin": -0.691513,
+      "jam_cos": -0.722364,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9
+    },
+    {
+      "time": "2026-08-20T15:00:00+07:00",
+      "label": "20/08 15:00",
+      "temperature": 0.392082,
+      "humidity": 0.714566,
+      "jam_sin": -0.707107,
+      "jam_cos": -0.707107,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9
+    },
+    {
+      "time": "2026-08-20T15:05:00+07:00",
+      "label": "20/08 15:05",
+      "temperature": 0.392082,
+      "humidity": 0.72371,
+      "jam_sin": -0.722364,
+      "jam_cos": -0.691513,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9
+    },
+    {
+      "time": "2026-08-20T15:10:00+07:00",
+      "label": "20/08 15:10",
+      "temperature": 0.392082,
+      "humidity": 0.724363,
+      "jam_sin": -0.737277,
+      "jam_cos": -0.67559,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9
+    },
+    {
+      "time": "2026-08-20T15:15:00+07:00",
+      "label": "20/08 15:15",
+      "temperature": 0.392082,
+      "humidity": 0.729589,
+      "jam_sin": -0.75184,
+      "jam_cos": -0.659346,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9
+    },
+    {
+      "time": "2026-08-20T15:20:00+07:00",
+      "label": "20/08 15:20",
+      "temperature": 0.393359,
+      "humidity": 0.739106,
+      "jam_sin": -0.766044,
+      "jam_cos": -0.642788,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.914286
+    },
+    {
+      "time": "2026-08-20T15:25:00+07:00",
+      "label": "20/08 15:25",
+      "temperature": 0.395062,
+      "humidity": 0.742216,
+      "jam_sin": -0.779884,
+      "jam_cos": -0.625923,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.933333
+    },
+    {
+      "time": "2026-08-20T15:30:00+07:00",
+      "label": "20/08 15:30",
+      "temperature": 0.396552,
+      "humidity": 0.737916,
+      "jam_sin": -0.793353,
+      "jam_cos": -0.608761,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.95
+    },
+    {
+      "time": "2026-08-20T15:35:00+07:00",
+      "label": "20/08 15:35",
+      "temperature": 0.396552,
+      "humidity": 0.732038,
+      "jam_sin": -0.806445,
+      "jam_cos": -0.59131,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.95
+    },
+    {
+      "time": "2026-08-20T15:40:00+07:00",
+      "label": "20/08 15:40",
+      "temperature": 0.39387,
+      "humidity": 0.72998,
+      "jam_sin": -0.819152,
+      "jam_cos": -0.573576,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.92
+    },
+    {
+      "time": "2026-08-20T15:45:00+07:00",
+      "label": "20/08 15:45",
+      "temperature": 0.394068,
+      "humidity": 0.730024,
+      "jam_sin": -0.83147,
+      "jam_cos": -0.55557,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.922222
+    },
+    {
+      "time": "2026-08-20T15:50:00+07:00",
+      "label": "20/08 15:50",
+      "temperature": 0.394317,
+      "humidity": 0.726649,
+      "jam_sin": -0.843391,
+      "jam_cos": -0.5373,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.925
+    },
+    {
+      "time": "2026-08-20T15:55:00+07:00",
+      "label": "20/08 15:55",
+      "temperature": 0.397669,
+      "humidity": 0.747224,
+      "jam_sin": -0.854912,
+      "jam_cos": -0.518773,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9625
+    },
+    {
+      "time": "2026-08-20T16:00:00+07:00",
+      "label": "20/08 16:00",
+      "temperature": 0.401022,
+      "humidity": 0.764206,
+      "jam_sin": -0.866025,
+      "jam_cos": -0.5,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T16:05:00+07:00",
+      "label": "20/08 16:05",
+      "temperature": 0.401022,
+      "humidity": 0.77531,
+      "jam_sin": -0.876727,
+      "jam_cos": -0.480989,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T16:10:00+07:00",
+      "label": "20/08 16:10",
+      "temperature": 0.403257,
+      "humidity": 0.789353,
+      "jam_sin": -0.887011,
+      "jam_cos": -0.461749,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.025
+    },
+    {
+      "time": "2026-08-20T16:15:00+07:00",
+      "label": "20/08 16:15",
+      "temperature": 0.409962,
+      "humidity": 0.792293,
+      "jam_sin": -0.896873,
+      "jam_cos": -0.442289,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:20:00+07:00",
+      "label": "20/08 16:20",
+      "temperature": 0.409962,
+      "humidity": 0.805356,
+      "jam_sin": -0.906308,
+      "jam_cos": -0.422618,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:25:00+07:00",
+      "label": "20/08 16:25",
+      "temperature": 0.409962,
+      "humidity": 0.815807,
+      "jam_sin": -0.915311,
+      "jam_cos": -0.402747,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:30:00+07:00",
+      "label": "20/08 16:30",
+      "temperature": 0.409962,
+      "humidity": 0.81646,
+      "jam_sin": -0.92388,
+      "jam_cos": -0.382683,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:35:00+07:00",
+      "label": "20/08 16:35",
+      "temperature": 0.409962,
+      "humidity": 0.812671,
+      "jam_sin": -0.932008,
+      "jam_cos": -0.362438,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:40:00+07:00",
+      "label": "20/08 16:40",
+      "temperature": 0.409962,
+      "humidity": 0.806662,
+      "jam_sin": -0.939693,
+      "jam_cos": -0.34202,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:45:00+07:00",
+      "label": "20/08 16:45",
+      "temperature": 0.409962,
+      "humidity": 0.804703,
+      "jam_sin": -0.94693,
+      "jam_cos": -0.321439,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:50:00+07:00",
+      "label": "20/08 16:50",
+      "temperature": 0.409962,
+      "humidity": 0.800784,
+      "jam_sin": -0.953717,
+      "jam_cos": -0.300706,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.1
+    },
+    {
+      "time": "2026-08-20T16:55:00+07:00",
+      "label": "20/08 16:55",
+      "temperature": 0.408472,
+      "humidity": 0.798171,
+      "jam_sin": -0.96005,
+      "jam_cos": -0.279829,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.083333
+    },
+    {
+      "time": "2026-08-20T17:00:00+07:00",
+      "label": "20/08 17:00",
+      "temperature": 0.401022,
+      "humidity": 0.796771,
+      "jam_sin": -0.965926,
+      "jam_cos": -0.258819,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T17:05:00+07:00",
+      "label": "20/08 17:05",
+      "temperature": 0.401022,
+      "humidity": 0.794905,
+      "jam_sin": -0.971342,
+      "jam_cos": -0.237686,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T17:10:00+07:00",
+      "label": "20/08 17:10",
+      "temperature": 0.401022,
+      "humidity": 0.793599,
+      "jam_sin": -0.976296,
+      "jam_cos": -0.21644,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T17:15:00+07:00",
+      "label": "20/08 17:15",
+      "temperature": 0.401022,
+      "humidity": 0.793599,
+      "jam_sin": -0.980785,
+      "jam_cos": -0.19509,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 28.0
+    },
+    {
+      "time": "2026-08-20T17:20:00+07:00",
+      "label": "20/08 17:20",
+      "temperature": 0.395913,
+      "humidity": 0.791733,
+      "jam_sin": -0.984808,
+      "jam_cos": -0.173648,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.942857
+    },
+    {
+      "time": "2026-08-20T17:25:00+07:00",
+      "label": "20/08 17:25",
+      "temperature": 0.392082,
+      "humidity": 0.786806,
+      "jam_sin": -0.988362,
+      "jam_cos": -0.152123,
+      "hari_sin": 0.433884,
+      "hari_cos": -0.900969,
+      "akhir_pekan": 0.0,
+      "temperature_celsius": 27.9
+    }
+  ],
+  "codes": {
+    "prepare": {
+      "file": "fungsi_bersama/common.py",
+      "line": 123,
+      "text": "def prepare_dataset(cfg: dict, run_dir: Path, allow_incomplete: bool = False) -> dict:\n    data_cfg, pre = cfg[\"data\"], cfg[\"preprocessing\"]\n    source = Path(data_cfg[\"csv_path\"]).expanduser().resolve()\n    if not source.is_file():\n        raise FileNotFoundError(f\"Dataset tidak ditemukan: {source}\")\n    if (run_dir / \"dataset\" / \"metadata.json\").exists():\n        raise FileExistsError(\"Run sudah dipraproses. Pakai artefak yang ada atau direktori run baru; jangan menimpa dataset run.\")\n    frame = pd.read_csv(source)\n    required = {data_cfg[\"kolom_waktu\"], data_cfg[\"kolom_target\"], data_cfg[\"kolom_kelembapan\"]}\n    missing = required - set(frame.columns)\n    if missing:\n        raise ValueError(\"Kolom dataset belum lengkap: \" + \", \".join(sorted(missing)))\n    timezone = cfg[\"project\"][\"timezone\"]\n    frame[\"timestamp\"] = _timestamps(frame[data_cfg[\"kolom_waktu\"]], timezone)\n    temperature, humidity = data_cfg[\"kolom_target\"], data_cfg[\"kolom_kelembapan\"]\n    frame = frame[[\"timestamp\", temperature, humidity]].copy()\n    frame[[temperature, humidity]] = frame[[temperature, humidity]].apply(pd.to_numeric, errors=\"coerce\")\n    frame = frame.dropna(subset=[\"timestamp\", temperature, humidity]).sort_values(\"timestamp\")\n    raw_first, raw_last = frame[\"timestamp\"].min(), frame[\"timestamp\"].max()\n    start, end = pd.Timestamp(data_cfg[\"mulai\"]), pd.Timestamp(data_cfg[\"akhir_eksklusif\"])\n    tolerance = pd.Timedelta(minutes=int(data_cfg[\"toleransi_ujung_menit\"]))\n    complete = raw_first <= start + tolerance and raw_last >= end - tolerance\n    if data_cfg.get(\"kandidat_harus_lengkap\", True) and not allow_incomplete and not complete:\n        raise ValueError(\n            f\"Dataset belum menutup jendela final. Rentang tersedia {raw_first} sampai {raw_last}; \"\n            f\"butuh cakupan {start} sampai mendekati {end}. Gunakan --allow-incomplete hanya untuk smoke test.\"\n        )\n    frame = frame[(frame[\"timestamp\"] >= start) & (frame[\"timestamp\"] < end)]\n    removed_artifact = 0\n    for interval in data_cfg.get(\"artefak_ranges\", []):\n        left = pd.Timestamp(interval[\"mulai_eksklusif\"])\n        right = pd.Timestamp(interval[\"selesai_eksklusif\"])\n        mask = (frame[\"timestamp\"] > left) & (frame[\"timestamp\"] < right)\n        removed_artifact += int(mask.sum())\n        frame = frame.loc[~mask]\n    lo, hi = data_cfg[\"batas_operasi_suhu\"]\n    invalid = ~frame[temperature].between(lo, hi)\n    removed_invalid = int(invalid.sum())\n    frame = frame.loc[~invalid].drop_duplicates(subset=\"timestamp\", keep=\"first\")\n    raw_count = len(frame)\n    resampled = frame.set_index(\"timestamp\")[[temperature, humidity]].resample(pre[\"resample\"]).mean()\n    full_grid = pd.date_range(start=start, end=end, freq=pre[\"resample\"], inclusive=\"left\")\n    resampled = resampled.reindex(full_grid)\n    resampled.index.name = \"timestamp\"\n    scaler_min = resampled[[temperature, humidity]].min()\n    scaler_max = resampled[[temperature, humidity]].max()\n    span = scaler_max - scaler_min\n    if (span <= 0).any():\n        raise ValueError(\"Rentang Min-Max nol atau negatif.\")\n    scaled = (resampled - scaler_min) / span\n    scaled[f\"{temperature}_celsius\"] = resampled[temperature]\n    scaled[f\"{humidity}_raw\"] = resampled[humidity]\n    split_frames, split_segments, rows = {}, {}, []\n    max_slots = int(pd.Timedelta(minutes=pre[\"max_gap_interpolasi_menit\"]) / pd.Timedelta(pre[\"resample\"]))\n    min_length = pre[\"lookback\"] + max(pre[\"horizons\"])\n    for name, bounds in pre[\"split\"].items():\n        left, right = pd.Timestamp(bounds[0]), pd.Timestamp(bounds[1])\n        part = scaled[(scaled.index >= left) & (scaled.index < right)].copy()\n        sensor_columns = [temperature, humidity, f\"{temperature}_celsius\", f\"{humidity}_raw\"]\n        part[sensor_columns], filled = _interpolate_short(part[sensor_columns], max_slots)\n        segments = _segments(part, min_length)\n        split_frames[name], split_segments[name] = part, segments\n        rows.append({\"split\": name, \"slots\": len(part), \"filled_cells\": filled, \"segments\": len(segments)})\n    prepared = pd.concat([part.assign(split=name) for name, part in split_frames.items()]).reset_index()\n    prepared.rename(columns={prepared.columns[0]: \"timestamp\"}, inplace=True)\n    atomic_csv(run_dir / \"data\" / \"prepared_series.csv\", prepared)\n    features = list(pre[\"features\"])\n    sequence_counts = []\n    for horizon in pre[\"horizons\"]:\n        package = {\"features\": np.asarray(features), \"lookback\": pre[\"lookback\"], \"horizon\": horizon}\n        for name in [\"train\", \"val\", \"test\"]:\n            x, y, yc, issue, target_time = _sequences(\n                split_segments[name], features, temperature, pre[\"lookback\"], horizon\n            )\n            package.update({f\"X_{name}\": x, f\"y_{name}\": y, f\"ycel_{name}\": yc,\n                            f\"issue_{name}\": issue, f\"t_{name}\": target_time})\n            actual_series = split_frames[name][f\"{temperature}_celsius\"].copy()\n            actual_series.index = actual_series.index.tz_localize(None)\n            actual_at_issue = actual_series.reindex(pd.DatetimeIndex(issue)).to_numpy(dtype=\"float64\")\n            if not np.isfinite(actual_at_issue).all():\n                raise ValueError(\"Suhu aktual saat issue tidak tersedia untuk sekuens valid.\")\n            package[f\"actual_at_issue_{name}\"] = actual_at_issue\n            sequence_counts.append({\"horizon_minutes\": horizon * 5, \"split\": name, \"samples\": len(y)})\n        np.savez_compressed(run_dir / \"data\" / f\"seq_h{horizon}.npz\", **package)\n    scaler = {\"mode\": \"fit_on_all\", \"columns\": [temperature, humidity],\n              \"min\": scaler_min.tolist(), \"max\": scaler_max.tolist()}\n    atomic_json(run_dir / \"data\" / \"scaler.json\", scaler)\n    atomic_csv(run_dir / \"results\" / \"preprocessing_splits.csv\", pd.DataFrame(rows))\n    atomic_csv(run_dir / \"results\" / \"sequence_counts.csv\", pd.DataFrame(sequence_counts))\n    config_snapshot = run_dir / \"config\" / \"config.yaml\"\n    config_snapshot.write_text(yaml.safe_dump(cfg, sort_keys=False, allow_unicode=True), encoding=\"utf-8\")\n    valid_slots = resampled[[temperature, humidity]].notna().all(axis=1)\n    missing_slots = ~valid_slots\n    missing_groups = (missing_slots != missing_slots.shift()).cumsum()\n    gap_lengths = [len(part) for _, part in resampled.groupby(missing_groups)\n                   if missing_slots.loc[part.index[0]]]\n    total_slots = len(resampled)\n    complete_slots = int(valid_slots.sum())\n    completeness = complete_slots / total_slots if total_slots else 0.0\n    meta = {\n        \"status\": cfg[\"project\"][\"status\"], \"source\": str(source), \"source_size_bytes\": source.stat().st_size,\n        \"raw_first\": raw_first.isoformat(), \"raw_last\": raw_last.isoformat(), \"final_window_complete\": complete,\n        \"rows_after_filter\": raw_count, \"removed_artifact_rows\": removed_artifact,\n        \"removed_outside_sensor_range\": removed_invalid, \"feature_order\": features,\n        \"lookback\": pre[\"lookback\"], \"horizons\": pre[\"horizons\"],\n        \"total_five_minute_slots\": total_slots, \"complete_five_minute_slots\": complete_slots,\n        \"missing_five_minute_slots\": total_slots - complete_slots,\n        \"completeness_fraction\": completeness, \"completeness_target_fraction\": 0.95,\n        \"meets_completeness_target\": completeness >= 0.95,\n        \"long_gap_count\": len(gap_lengths), \"longest_gap_slots\": max(gap_lengths, default=0),\n        \"meets_no_gap_over_three_hours\": max(gap_lengths, default=0) <= 36,\n    }\n    meta[\"fingerprint\"] = stable_hash({\"dataset_metadata\": meta, \"config\": cfg, \"schema\": 2})\n    atomic_json(run_dir / \"dataset\" / \"metadata.json\", meta)\n    return meta"
+    },
+    "interpolate": {
+      "file": "fungsi_bersama/common.py",
+      "line": 65,
+      "text": "def _interpolate_short(frame: pd.DataFrame, max_slots: int) -> tuple[pd.DataFrame, int]:\n    result = frame.copy()\n    filled = 0\n    for column in result.columns:\n        missing = result[column].isna()\n        groups = (missing != missing.shift()).cumsum()\n        lengths = missing.groupby(groups).transform(\"size\")\n        eligible = missing & (lengths <= max_slots)\n        interpolated = result[column].interpolate(method=\"linear\", limit=max_slots, limit_area=\"inside\")\n        can_fill = eligible & interpolated.notna()\n        result.loc[can_fill, column] = interpolated.loc[can_fill]\n        filled += int(can_fill.sum())\n    return result, filled"
+    },
+    "segments": {
+      "file": "fungsi_bersama/common.py",
+      "line": 80,
+      "text": "def _segments(frame: pd.DataFrame, min_length: int) -> list[pd.DataFrame]:\n    valid = frame.notna().all(axis=1)\n    groups = (valid != valid.shift()).cumsum()\n    return [part for _, part in frame.groupby(groups) if valid.loc[part.index[0]] and len(part) >= min_length]"
+    },
+    "features": {
+      "file": "fungsi_bersama/common.py",
+      "line": 86,
+      "text": "def add_features(frame: pd.DataFrame) -> pd.DataFrame:\n    result = frame.copy()\n    hour = result.index.hour + result.index.minute / 60.0\n    day = result.index.dayofweek.astype(float)\n    result[\"jam_sin\"] = np.sin(2 * np.pi * hour / 24)\n    result[\"jam_cos\"] = np.cos(2 * np.pi * hour / 24)\n    result[\"hari_sin\"] = np.sin(2 * np.pi * day / 7)\n    result[\"hari_cos\"] = np.cos(2 * np.pi * day / 7)\n    result[\"akhir_pekan\"] = (result.index.dayofweek >= 5).astype(float)\n    return result"
+    },
+    "sequence": {
+      "file": "fungsi_bersama/common.py",
+      "line": 98,
+      "text": "def _sequences(segments: list[pd.DataFrame], features: list[str], target: str, lookback: int, horizon: int):\n    xs, ys, y_celsius, target_times, issue_times = [], [], [], [], []\n    for segment in segments:\n        enriched = add_features(segment)\n        values = enriched[features].to_numpy(dtype=\"float32\")\n        scaled_target = enriched[target].to_numpy(dtype=\"float32\")\n        raw_target = enriched[f\"{target}_celsius\"].to_numpy(dtype=\"float32\")\n        for start in range(len(enriched) - lookback - horizon + 1):\n            issue = start + lookback - 1\n            target_pos = issue + horizon\n            xs.append(values[start : start + lookback])\n            ys.append(scaled_target[target_pos])\n            y_celsius.append(raw_target[target_pos])\n            issue_times.append(enriched.index[issue].tz_localize(None).to_datetime64())\n            target_times.append(enriched.index[target_pos].tz_localize(None).to_datetime64())\n    shape = (0, lookback, len(features))\n    return (\n        np.stack(xs) if xs else np.empty(shape, dtype=\"float32\"),\n        np.asarray(ys, dtype=\"float32\"),\n        np.asarray(y_celsius, dtype=\"float32\"),\n        np.asarray(issue_times, dtype=\"datetime64[ns]\"),\n        np.asarray(target_times, dtype=\"datetime64[ns]\"),\n    )"
+    },
+    "model": {
+      "file": "04_training/04_train.py",
+      "line": 26,
+      "text": "def build_model(architecture: str, hp: dict, input_shape: tuple[int, int], loss: str):\n    from tensorflow import keras\n    cell = keras.layers.LSTM if architecture == \"lstm\" else keras.layers.GRU\n    model = keras.Sequential(name=f\"{architecture}_{hp['config_id']}\")\n    model.add(keras.Input(shape=input_shape))\n    for index in range(hp[\"layers\"]):\n        model.add(cell(hp[\"units\"], return_sequences=index < hp[\"layers\"] - 1))\n        model.add(keras.layers.Dropout(hp[\"dropout\"]))\n    model.add(keras.layers.Dense(1))\n    model.compile(optimizer=keras.optimizers.Adam(hp[\"learning_rate\"]), loss=loss)\n    return model"
+    },
+    "grid": {
+      "file": "04_training/04_train.py",
+      "line": 39,
+      "text": "def grid(cfg: dict) -> list[dict]:\n    values = cfg[\"model\"][\"grid\"]\n    result = []\n    for units, layers, dropout, lr, batch in itertools.product(\n        values[\"units\"], values[\"layers\"], values[\"dropout\"],\n        values[\"learning_rate\"], values[\"batch_size\"]\n    ):\n        hp = {\"units\": units, \"layers\": layers, \"dropout\": float(dropout),\n              \"learning_rate\": float(lr), \"batch_size\": batch}\n        hp[\"config_id\"] = f\"u{units}_l{layers}_d{dropout}_lr{lr}_b{batch}\".replace(\".\", \"p\")\n        result.append(hp)\n    return result"
+    },
+    "fit": {
+      "file": "04_training/04_train.py",
+      "line": 105,
+      "text": "def train_once(cfg: dict, sequence: dict, architecture: str, hp: dict, seed: int,\n               epochs: int | None = None, subset: int | None = None,\n               attempt_dir: Path | None = None):\n    import tensorflow as tf\n    from tensorflow import keras\n    tf.keras.backend.clear_session()\n    tf.keras.utils.set_random_seed(seed)\n    tf.config.experimental.enable_op_determinism()\n    x_train, y_train = sequence[\"X_train\"], sequence[\"y_train\"]\n    x_val, y_val = sequence[\"X_val\"], sequence[\"y_val\"]\n    if subset:\n        x_train, y_train = x_train[:subset], y_train[:subset]\n        x_val, y_val = x_val[:max(64, subset // 4)], y_val[:max(64, subset // 4)]\n    if not len(x_train) or not len(x_val):\n        raise ValueError(\"Training dan validasi harus memiliki sampel.\")\n    model = build_model(architecture, hp, x_train.shape[1:], cfg[\"model\"][\"loss\"])\n    callbacks = [keras.callbacks.EarlyStopping(monitor=\"val_loss\", patience=cfg[\"model\"][\"patience\"],\n                                              restore_best_weights=True, verbose=0)]\n    if attempt_dir:\n        attempt_dir.mkdir(parents=True, exist_ok=True)\n        callbacks += [keras.callbacks.CSVLogger(str(attempt_dir / \"history.csv\")),\n                      keras.callbacks.ModelCheckpoint(str(attempt_dir / \"best.keras\"),\n                          monitor=\"val_loss\", save_best_only=True, verbose=0),\n                      keras.callbacks.TerminateOnNaN()]\n    started = time.perf_counter()\n    history = model.fit(x_train, y_train, validation_data=(x_val, y_val),\n                        epochs=epochs or cfg[\"model\"][\"epochs\"], batch_size=int(hp[\"batch_size\"]),\n                        callbacks=callbacks, verbose=2, shuffle=True)\n    duration = time.perf_counter() - started\n    losses = np.asarray(history.history[\"val_loss\"])\n    if not np.isfinite(losses).all():\n        raise RuntimeError(\"Loss non-finite; trial gagal dan tidak boleh dipilih.\")\n    # Reload the persisted best checkpoint, including optimizer state, for final artefacts.\n    if attempt_dir:\n        model = keras.models.load_model(attempt_dir / \"best.keras\")\n    prediction = model.predict(x_val, verbose=0).reshape(-1)\n    if not np.isfinite(prediction).all():\n        raise RuntimeError(\"Prediksi validasi non-finite.\")\n    predicted_celsius = common.inverse_target(Path(cfg[\"_run_dir\"]), prediction)\n    val_mae = common.metrics(sequence[\"ycel_val\"][:len(prediction)], predicted_celsius)[\"mae\"]\n    details = {\"val_mae_celsius\": val_mae, \"duration_seconds\": duration,\n               \"epochs_ran\": len(history.history[\"loss\"]),\n               \"best_epoch\": int(np.argmin(losses) + 1),\n               \"trainable_params\": int(model.count_params()),\n               \"variable_devices\": sorted({str(getattr(getattr(v, \"value\", v), \"device\", \"unknown\"))\n                                           for v in model.trainable_variables}),\n               \"same_process_as_model_fit\": True,\n               \"op_determinism_enabled\": True,\n               \"seed\": seed}\n    if attempt_dir:\n        common.atomic_json(attempt_dir / \"fit_summary.json\", details)\n    return model, details"
+    },
+    "select": {
+      "file": "04_training/04_train.py",
+      "line": 213,
+      "text": "def shared_selection(progress: pd.DataFrame, cfg: dict, fingerprint: str) -> dict:\n    if progress.empty:\n        return {}\n    successful = progress[(progress[\"status\"] == \"success\") &\n                          (progress[\"fingerprint\"] == fingerprint) &\n                          (progress[\"seed\"] == int(cfg[\"model\"][\"seed_tuning\"])) &\n                          (progress[\"phase\"] == \"tuning\")].copy()\n    selections = {}\n    hp_columns = [\"units\", \"layers\", \"dropout\", \"learning_rate\", \"batch_size\", \"config_id\"]\n    for horizon in cfg[\"preprocessing\"][\"horizons\"]:\n        subset = successful[successful[\"horizon_slots\"] == horizon]\n        pivot = subset.pivot_table(index=\"config_id\", columns=\"architecture\",\n                                   values=\"val_mae_celsius\", aggfunc=\"last\")\n        if not {\"lstm\", \"gru\"}.issubset(pivot.columns):\n            continue\n        pivot = pivot.dropna(subset=[\"lstm\", \"gru\"])\n        if pivot.empty:\n            continue\n        pivot[\"mean\"] = (pivot[\"lstm\"] + pivot[\"gru\"]) / 2\n        pivot[\"worst\"] = pivot[[\"lstm\", \"gru\"]].max(axis=1)\n        best_id = pivot.reset_index().sort_values([\"mean\", \"worst\", \"config_id\"]).iloc[0][\"config_id\"]\n        source = subset[subset[\"config_id\"] == best_id].iloc[0]\n        hp = {column: source[column].item() if hasattr(source[column], \"item\") else source[column]\n              for column in hp_columns}\n        winner = \"lstm\" if pivot.loc[best_id, \"lstm\"] <= pivot.loc[best_id, \"gru\"] else \"gru\"\n        selections[str(horizon)] = {\"horizon_minutes\": horizon * 5, \"shared_hyperparameters\": hp,\n                                    \"lstm_val_mae\": float(pivot.loc[best_id, \"lstm\"]),\n                                    \"gru_val_mae\": float(pivot.loc[best_id, \"gru\"]),\n                                    \"pair_mean_val_mae\": float(pivot.loc[best_id, \"mean\"]),\n                                    \"deployment_winner\": winner, \"seed\": int(cfg[\"model\"][\"seed_tuning\"])}\n    return selections"
+    },
+    "final": {
+      "file": "04_training/04_train.py",
+      "line": 246,
+      "text": "def final_training(cfg: dict, run_dir: Path, fingerprint: str) -> None:\n    import tensorflow as tf\n    seeds = [int(seed) for seed in cfg[\"model\"][\"final_seeds\"]]\n    if seeds != [1, 2, 3]:\n        raise ValueError(\"Protokol final membutuhkan final_seeds tepat [1, 2, 3].\")\n    path = run_dir / \"results\" / \"selected_shared_configs.json\"\n    selection = json.loads(path.read_text(encoding=\"utf-8\"))\n    if selection.get(\"run_fingerprint\") != fingerprint:\n        raise RuntimeError(\"Selection berasal dari run/runtime berbeda; jangan reuse tuning Metal.\")\n    selections = selection[\"selections\"]\n    if set(selections) != {str(h) for h in cfg[\"preprocessing\"][\"horizons\"]}:\n        raise RuntimeError(\"Selection belum lengkap untuk seluruh horizon.\")\n    lock_path = run_dir / \"state\" / \"locked_final_selection.json\"\n    state.lock_json(lock_path, selection)\n    progress_path = run_dir / \"results\" / \"final_training_progress.csv\"\n    manifest = []\n    predictions = []\n    for horizon in cfg[\"preprocessing\"][\"horizons\"]:\n        hp = selections[str(horizon)][\"shared_hyperparameters\"]\n        for seed in seeds:\n            payload = {}\n            for architecture in cfg[\"model\"][\"architectures\"]:\n                model, row = run_trial(cfg, run_dir, fingerprint, architecture, horizon,\n                                       hp, progress_path, seed=seed, phase=\"final\")\n                if model is None:\n                    model = tf.keras.models.load_model(run_dir / row[\"model_path\"])\n                # Test data is loaded only after the fit and config choice are complete.\n                sequence = common.load_sequence(run_dir, horizon)\n                payload.update({\"y_true\": sequence[\"ycel_test\"], \"t\": sequence[\"t_test\"],\n                                \"issue\": sequence[\"issue_test\"], \"y_true_val\": sequence[\"ycel_val\"],\n                                \"t_val\": sequence[\"t_val\"], \"issue_val\": sequence[\"issue_val\"],\n                                \"run_fingerprint\": np.asarray(fingerprint), \"seed\": np.asarray(seed)})\n                for split in [\"val\", \"test\"]:\n                    payload[f\"actual_at_issue_{split}\"] = sequence[f\"actual_at_issue_{split}\"]\n                    pred = model.predict(sequence[f\"X_{split}\"], verbose=0).reshape(-1)\n                    if not np.isfinite(pred).all():\n                        raise RuntimeError(\"Prediksi non-finite; evaluasi dihentikan.\")\n                    payload[f\"{architecture}_{split}\"] = common.inverse_target(run_dir, pred)\n                canonical = run_dir / \"models\" / f\"{architecture}_h{horizon * 5}_seed{seed}.keras\"\n                state.copy_verified(run_dir / row[\"model_path\"], canonical, row[\"model_sha256\"])\n                manifest.append({\"architecture\": architecture, \"horizon_slots\": horizon,\n                                 \"horizon_minutes\": horizon * 5, \"seed\": seed,\n                                 \"model_path\": str(canonical.relative_to(run_dir)),\n                                 \"model_sha256\": row[\"model_sha256\"], \"trial_id\": row[\"trial_id\"],\n                                 \"val_mae_celsius\": row[\"val_mae_celsius\"],\n                                 \"duration_seconds\": row[\"duration_seconds\"],\n                                 \"history_path\": row[\"history_path\"], \"attempt_dir\": row[\"attempt_dir\"]})\n                del model, sequence\n                tf.keras.backend.clear_session()\n                gc.collect()\n            prediction_path = run_dir / \"results\" / f\"neural_predictions_h{horizon}_seed{seed}.npz\"\n            state.atomic_npz(prediction_path, payload)\n            predictions.append({\"path\": str(prediction_path.relative_to(run_dir)),\n                                \"sha256\": common.sha256_file(prediction_path),\n                                \"horizon_slots\": horizon, \"seed\": seed})\n    common.atomic_json(run_dir / \"results\" / \"final_models_manifest.json\", {\n        \"run_fingerprint\": fingerprint, \"seeds\": seeds, \"models\": manifest, \"predictions\": predictions,\n        \"deployment_selection\": \"PENDING_PREDECLARED_SEED_OR_ENSEMBLE_POLICY\",\n        \"selection_basis\": \"shared_configuration_from_tuning_validation_only\"})"
+    },
+    "metrics": {
+      "file": "fungsi_bersama/common.py",
+      "line": 259,
+      "text": "def metrics(y_true: np.ndarray, y_pred: np.ndarray) -> dict:\n    error = np.asarray(y_true) - np.asarray(y_pred)\n    return {\"mae\": float(np.mean(np.abs(error))), \"rmse\": float(np.sqrt(np.mean(error ** 2))),\n            \"mape\": float(np.mean(np.abs(error / y_true)) * 100), \"n\": int(len(error))}"
+    },
+    "baseline": {
+      "file": "05_baseline/03_baselines.py",
+      "line": 36,
+      "text": "def simple_predictions(series: pd.Series, issue: np.ndarray, target_times: np.ndarray,\n                       seasonal_lag: int, windows: list[int], timezone: str) -> dict[str, np.ndarray]:\n    step = series.index.to_series().diff().dropna().mode().iloc[0]\n    issue_index = _sequence_index(issue, timezone)\n    target_index = _sequence_index(target_times, timezone)\n    result = {\"Naive\": _at(series, issue, timezone),\n              \"SeasonalNaive\": series.reindex(target_index - seasonal_lag * step).to_numpy(dtype=float)}\n    for window in windows:\n        moving = series.rolling(window, min_periods=window).mean()\n        result[f\"MovingAverage_w{window}\"] = moving.reindex(issue_index).to_numpy(dtype=float)\n    return result"
+    },
+    "sourceFile": {
+      "file": "fungsi_bersama/common.py",
+      "line": 123,
+      "text": "def prepare_dataset(cfg: dict, run_dir: Path, allow_incomplete: bool = False) -> dict:\n    data_cfg, pre = cfg[\"data\"], cfg[\"preprocessing\"]\n    source = Path(data_cfg[\"csv_path\"]).expanduser().resolve()\n    if not source.is_file():\n        raise FileNotFoundError(f\"Dataset tidak ditemukan: {source}\")\n    if (run_dir / \"dataset\" / \"metadata.json\").exists():\n        raise FileExistsError(\"Run sudah dipraproses. Pakai artefak yang ada atau direktori run baru; jangan menimpa dataset run.\")\n    frame = pd.read_csv(source)\n    required = {data_cfg[\"kolom_waktu\"], data_cfg[\"kolom_target\"], data_cfg[\"kolom_kelembapan\"]}\n    missing = required - set(frame.columns)\n    if missing:\n        raise ValueError(\"Kolom dataset belum lengkap: \" + \", \".join(sorted(missing)))\n    timezone = cfg[\"project\"][\"timezone\"]\n    frame[\"timestamp\"] = _timestamps(frame[data_cfg[\"kolom_waktu\"]], timezone)\n    temperature, humidity = data_cfg[\"kolom_target\"], data_cfg[\"kolom_kelembapan\"]\n    frame = frame[[\"timestamp\", temperature, humidity]].copy()\n    frame[[temperature, humidity]] = frame[[temperature, humidity]].apply(pd.to_numeric, errors=\"coerce\")\n    frame = frame.dropna(subset=[\"timestamp\", temperature, humidity]).sort_values(\"timestamp\")\n    raw_first, raw_last = frame[\"timestamp\"].min(), frame[\"timestamp\"].max()\n    start, end = pd.Timestamp(data_cfg[\"mulai\"]), pd.Timestamp(data_cfg[\"akhir_eksklusif\"])\n    tolerance = pd.Timedelta(minutes=int(data_cfg[\"toleransi_ujung_menit\"]))\n    complete = raw_first <= start + tolerance and raw_last >= end - tolerance\n    if data_cfg.get(\"kandidat_harus_lengkap\", True) and not allow_incomplete and not complete:\n        raise ValueError(\n            f\"Dataset belum menutup jendela final. Rentang tersedia {raw_first} sampai {raw_last}; \"\n            f\"butuh cakupan {start} sampai mendekati {end}. Gunakan --allow-incomplete hanya untuk smoke test.\"\n        )\n    frame = frame[(frame[\"timestamp\"] >= start) & (frame[\"timestamp\"] < end)]\n    removed_artifact = 0\n    for interval in data_cfg.get(\"artefak_ranges\", []):\n        left = pd.Timestamp(interval[\"mulai_eksklusif\"])\n        right = pd.Timestamp(interval[\"selesai_eksklusif\"])\n        mask = (frame[\"timestamp\"] > left) & (frame[\"timestamp\"] < right)\n        removed_artifact += int(mask.sum())\n        frame = frame.loc[~mask]\n    lo, hi = data_cfg[\"batas_operasi_suhu\"]\n    invalid = ~frame[temperature].between(lo, hi)\n    removed_invalid = int(invalid.sum())\n    frame = frame.loc[~invalid].drop_duplicates(subset=\"timestamp\", keep=\"first\")\n    raw_count = len(frame)\n    resampled = frame.set_index(\"timestamp\")[[temperature, humidity]].resample(pre[\"resample\"]).mean()\n    full_grid = pd.date_range(start=start, end=end, freq=pre[\"resample\"], inclusive=\"left\")\n    resampled = resampled.reindex(full_grid)\n    resampled.index.name = \"timestamp\"\n    scaler_min = resampled[[temperature, humidity]].min()\n    scaler_max = resampled[[temperature, humidity]].max()\n    span = scaler_max - scaler_min\n    if (span <= 0).any():\n        raise ValueError(\"Rentang Min-Max nol atau negatif.\")\n    scaled = (resampled - scaler_min) / span\n    scaled[f\"{temperature}_celsius\"] = resampled[temperature]\n    scaled[f\"{humidity}_raw\"] = resampled[humidity]\n    split_frames, split_segments, rows = {}, {}, []\n    max_slots = int(pd.Timedelta(minutes=pre[\"max_gap_interpolasi_menit\"]) / pd.Timedelta(pre[\"resample\"]))\n    min_length = pre[\"lookback\"] + max(pre[\"horizons\"])\n    for name, bounds in pre[\"split\"].items():\n        left, right = pd.Timestamp(bounds[0]), pd.Timestamp(bounds[1])\n        part = scaled[(scaled.index >= left) & (scaled.index < right)].copy()\n        sensor_columns = [temperature, humidity, f\"{temperature}_celsius\", f\"{humidity}_raw\"]\n        part[sensor_columns], filled = _interpolate_short(part[sensor_columns], max_slots)\n        segments = _segments(part, min_length)\n        split_frames[name], split_segments[name] = part, segments\n        rows.append({\"split\": name, \"slots\": len(part), \"filled_cells\": filled, \"segments\": len(segments)})\n    prepared = pd.concat([part.assign(split=name) for name, part in split_frames.items()]).reset_index()\n    prepared.rename(columns={prepared.columns[0]: \"timestamp\"}, inplace=True)\n    atomic_csv(run_dir / \"data\" / \"prepared_series.csv\", prepared)\n    features = list(pre[\"features\"])\n    sequence_counts = []\n    for horizon in pre[\"horizons\"]:\n        package = {\"features\": np.asarray(features), \"lookback\": pre[\"lookback\"], \"horizon\": horizon}\n        for name in [\"train\", \"val\", \"test\"]:\n            x, y, yc, issue, target_time = _sequences(\n                split_segments[name], features, temperature, pre[\"lookback\"], horizon\n            )\n            package.update({f\"X_{name}\": x, f\"y_{name}\": y, f\"ycel_{name}\": yc,\n                            f\"issue_{name}\": issue, f\"t_{name}\": target_time})\n            actual_series = split_frames[name][f\"{temperature}_celsius\"].copy()\n            actual_series.index = actual_series.index.tz_localize(None)\n            actual_at_issue = actual_series.reindex(pd.DatetimeIndex(issue)).to_numpy(dtype=\"float64\")\n            if not np.isfinite(actual_at_issue).all():\n                raise ValueError(\"Suhu aktual saat issue tidak tersedia untuk sekuens valid.\")\n            package[f\"actual_at_issue_{name}\"] = actual_at_issue\n            sequence_counts.append({\"horizon_minutes\": horizon * 5, \"split\": name, \"samples\": len(y)})\n        np.savez_compressed(run_dir / \"data\" / f\"seq_h{horizon}.npz\", **package)\n    scaler = {\"mode\": \"fit_on_all\", \"columns\": [temperature, humidity],\n              \"min\": scaler_min.tolist(), \"max\": scaler_max.tolist()}\n    atomic_json(run_dir / \"data\" / \"scaler.json\", scaler)\n    atomic_csv(run_dir / \"results\" / \"preprocessing_splits.csv\", pd.DataFrame(rows))\n    atomic_csv(run_dir / \"results\" / \"sequence_counts.csv\", pd.DataFrame(sequence_counts))\n    config_snapshot = run_dir / \"config\" / \"config.yaml\"\n    config_snapshot.write_text(yaml.safe_dump(cfg, sort_keys=False, allow_unicode=True), encoding=\"utf-8\")\n    valid_slots = resampled[[temperature, humidity]].notna().all(axis=1)\n    missing_slots = ~valid_slots\n    missing_groups = (missing_slots != missing_slots.shift()).cumsum()\n    gap_lengths = [len(part) for _, part in resampled.groupby(missing_groups)\n                   if missing_slots.loc[part.index[0]]]\n    total_slots = len(resampled)\n    complete_slots = int(valid_slots.sum())\n    completeness = complete_slots / total_slots if total_slots else 0.0\n    meta = {\n        \"status\": cfg[\"project\"][\"status\"], \"source\": str(source), \"source_size_bytes\": source.stat().st_size,\n        \"raw_first\": raw_first.isoformat(), \"raw_last\": raw_last.isoformat(), \"final_window_complete\": complete,\n        \"rows_after_filter\": raw_count, \"removed_artifact_rows\": removed_artifact,\n        \"removed_outside_sensor_range\": removed_invalid, \"feature_order\": features,\n        \"lookback\": pre[\"lookback\"], \"horizons\": pre[\"horizons\"],\n        \"total_five_minute_slots\": total_slots, \"complete_five_minute_slots\": complete_slots,\n        \"missing_five_minute_slots\": total_slots - complete_slots,\n        \"completeness_fraction\": completeness, \"completeness_target_fraction\": 0.95,\n        \"meets_completeness_target\": completeness >= 0.95,\n        \"long_gap_count\": len(gap_lengths), \"longest_gap_slots\": max(gap_lengths, default=0),\n        \"meets_no_gap_over_three_hours\": max(gap_lengths, default=0) <= 36,\n    }\n    meta[\"fingerprint\"] = stable_hash({\"dataset_metadata\": meta, \"config\": cfg, \"schema\": 2})\n    atomic_json(run_dir / \"dataset\" / \"metadata.json\", meta)\n    return meta"
+    },
+    "sourceValidation": {
+      "file": "fungsi_bersama/common.py",
+      "line": 123,
+      "text": "def prepare_dataset(cfg: dict, run_dir: Path, allow_incomplete: bool = False) -> dict:\n    data_cfg, pre = cfg[\"data\"], cfg[\"preprocessing\"]\n    source = Path(data_cfg[\"csv_path\"]).expanduser().resolve()\n    if not source.is_file():\n        raise FileNotFoundError(f\"Dataset tidak ditemukan: {source}\")\n    if (run_dir / \"dataset\" / \"metadata.json\").exists():\n        raise FileExistsError(\"Run sudah dipraproses. Pakai artefak yang ada atau direktori run baru; jangan menimpa dataset run.\")\n    frame = pd.read_csv(source)"
+    }
+  },
+  "cleaning": {
+    "steps": [
+      {
+        "id": "numeric",
+        "name": "Validasi angka",
+        "before": 67299,
+        "after": 67299,
+        "rule": "Suhu dan kelembapan harus dapat dibaca sebagai angka. Baris tanpa nilai yang valid dikeluarkan."
+      },
+      {
+        "id": "sort",
+        "name": "Urutkan waktu",
+        "before": 67299,
+        "after": 67299,
+        "rule": "Urutkan timestamp dari paling awal ke paling akhir. Pengurutan tidak membuang baris."
+      },
+      {
+        "id": "artifact",
+        "name": "Keluarkan artefak",
+        "before": 67299,
+        "after": 67293,
+        "rule": "Keluarkan pembacaan pada interval artefak 26 Agustus 09:35:15.777–13:18:40.717 WIB; kedua batas eksklusif."
+      },
+      {
+        "id": "range",
+        "name": "Periksa rentang suhu",
+        "before": 67293,
+        "after": 67293,
+        "rule": "Pertahankan suhu dari −10 sampai 60 °C, termasuk kedua batas. Aturan ini memeriksa rentang sensor, bukan ambang peringatan 27 °C."
+      },
+      {
+        "id": "duplicate",
+        "name": "Hapus timestamp duplikat",
+        "before": 67293,
+        "after": 67293,
+        "rule": "Jika timestamp sama persis, pertahankan baris pertama. Suhu sama atau menit yang sama belum berarti duplikat."
+      }
+    ],
+    "example": [
+      {
+        "time": "2026-08-26T09:34:15.887000+07:00",
+        "label": "26/08 09:34",
+        "temperature": 26.0,
+        "humidity": 58.5,
+        "exactTime": "26/08 09:34:15.887",
+        "removedAt": null,
+        "reason": "Angka valid, di luar interval artefak, suhu dalam rentang, timestamp unik"
+      },
+      {
+        "time": "2026-08-26T09:34:45.909000+07:00",
+        "label": "26/08 09:34",
+        "temperature": 26.1,
+        "humidity": 58.5,
+        "exactTime": "26/08 09:34:45.909",
+        "removedAt": null,
+        "reason": "Angka valid, di luar interval artefak, suhu dalam rentang, timestamp unik"
+      },
+      {
+        "time": "2026-08-26T09:35:15.777000+07:00",
+        "label": "26/08 09:35",
+        "temperature": 26.1,
+        "humidity": 58.5,
+        "exactTime": "26/08 09:35:15.777",
+        "removedAt": null,
+        "reason": "Angka valid, di luar interval artefak, suhu dalam rentang, timestamp unik"
+      },
+      {
+        "time": "2026-08-26T11:38:50.372000+07:00",
+        "label": "26/08 11:38",
+        "temperature": 26.0,
+        "humidity": 58.5,
+        "exactTime": "26/08 11:38:50.372",
+        "removedAt": "artifact",
+        "reason": "Berada dalam interval artefak"
+      },
+      {
+        "time": "2026-08-26T13:18:35.477000+07:00",
+        "label": "26/08 13:18",
+        "temperature": 26.0,
+        "humidity": 58.5,
+        "exactTime": "26/08 13:18:35.477",
+        "removedAt": "artifact",
+        "reason": "Berada dalam interval artefak"
+      },
+      {
+        "time": "2026-08-26T13:18:35.698000+07:00",
+        "label": "26/08 13:18",
+        "temperature": 26.0,
+        "humidity": 58.5,
+        "exactTime": "26/08 13:18:35.698",
+        "removedAt": "artifact",
+        "reason": "Berada dalam interval artefak"
+      },
+      {
+        "time": "2026-08-26T13:18:39.010000+07:00",
+        "label": "26/08 13:18",
+        "temperature": 26.0,
+        "humidity": 58.5,
+        "exactTime": "26/08 13:18:39.010",
+        "removedAt": "artifact",
+        "reason": "Berada dalam interval artefak"
+      },
+      {
+        "time": "2026-08-26T13:18:40.675000+07:00",
+        "label": "26/08 13:18",
+        "temperature": 26.0,
+        "humidity": 58.5,
+        "exactTime": "26/08 13:18:40.675",
+        "removedAt": "artifact",
+        "reason": "Berada dalam interval artefak"
+      },
+      {
+        "time": "2026-08-26T13:18:40.708000+07:00",
+        "label": "26/08 13:18",
+        "temperature": 26.9,
+        "humidity": 58.5,
+        "exactTime": "26/08 13:18:40.708",
+        "removedAt": "artifact",
+        "reason": "Berada dalam interval artefak"
+      },
+      {
+        "time": "2026-08-26T13:18:40.717000+07:00",
+        "label": "26/08 13:18",
+        "temperature": 26.9,
+        "humidity": 55.5,
+        "exactTime": "26/08 13:18:40.717",
+        "removedAt": null,
+        "reason": "Angka valid, di luar interval artefak, suhu dalam rentang, timestamp unik"
+      },
+      {
+        "time": "2026-08-26T13:19:08.720000+07:00",
+        "label": "26/08 13:19",
+        "temperature": 26.9,
+        "humidity": 55.5,
+        "exactTime": "26/08 13:19:08.720",
+        "removedAt": null,
+        "reason": "Angka valid, di luar interval artefak, suhu dalam rentang, timestamp unik"
+      },
+      {
+        "time": "2026-08-26T13:19:23.803000+07:00",
+        "label": "26/08 13:19",
+        "temperature": 26.9,
+        "humidity": 53.0,
+        "exactTime": "26/08 13:19:23.803",
+        "removedAt": null,
+        "reason": "Angka valid, di luar interval artefak, suhu dalam rentang, timestamp unik"
+      }
+    ],
+    "sampleDescription": "Tiga pembacaan sebelum artefak, enam pembacaan artefak, dan tiga pembacaan setelahnya. Potongan asli; bukan simulasi."
+  },
+  "sourceIdentity": {
+    "rows": 76979,
+    "columns": [
+      "waktu_wib",
+      "temperature",
+      "humidity",
+      "linkquality"
+    ],
+    "bytes": 3617412,
+    "first": "2026-08-04T16:10:53.443000+07:00",
+    "last": "2026-10-06T12:07:47.177000+07:00",
+    "code": [
+      {
+        "file": "scripts/export-pipeline-snapshot.py",
+        "line": 10,
+        "text": "ROOT = Path(__file__).resolve().parents[2]\nSOURCE = ROOT / \"Dataset/sensor_ruang_04agu_sampai_20261006_120840_wib.csv\""
+      },
+      {
+        "file": "scripts/export-pipeline-snapshot.py",
+        "line": 15,
+        "text": "frame = pd.read_csv(SOURCE)\nsource_columns = list(frame.columns)\nsource_rows = len(frame)"
+      },
+      {
+        "file": "scripts/export-pipeline-snapshot.py",
+        "line": 18,
+        "text": "frame[\"timestamp\"] = pd.to_datetime(frame.waktu_wib, format=\"mixed\", utc=True).dt.tz_convert(\"Asia/Jakarta\")"
+      },
+      {
+        "file": "scripts/export-pipeline-snapshot.py",
+        "line": 23,
+        "text": "start, end = pd.Timestamp(\"2026-08-20T00:00:00+07:00\"), pd.Timestamp(\"2026-10-01T00:00:00+07:00\")\nwindow = frame[(frame.timestamp >= start) & (frame.timestamp < end)].copy()"
+      }
+    ]
+  }
+}

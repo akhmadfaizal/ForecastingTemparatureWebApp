@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.edge-visual-profile/
+.vercel
+
+.vercel/
+.DS_Store
+*.log
+
+.env*
+!.env.example
+!.env.development.example
+!.env.production.example
+
+*.pid
