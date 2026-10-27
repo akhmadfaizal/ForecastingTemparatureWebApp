@@ -1,12 +1,12 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { Button, Card, FluentProvider, MessageBar, MessageBarBody, Switch, webDarkTheme, webLightTheme } from "@fluentui/react-components";
 import { ArrowClockwise, ChartLineUp, CheckCircle, Clock, Cube, Database, Drop, Moon, Sun, Thermometer, Warning } from "@phosphor-icons/react";
-import { PREDICTION_INTERVAL_MS, useDashboardData } from "./useDashboardData";
-import { EmptyInline, EmptyTemperature, LoadingBlock, PredictionRow, ReadingsTable } from "./components";
-import { ageInMinutes, formatDateTime, THRESHOLD, toChartPoint } from "./utils";
+import { PREDICTION_INTERVAL_MS, useDashboardData } from "../../hooks/useDashboardData";
+import { EmptyInline, EmptyTemperature, LoadingBlock, PredictionRow, ReadingsTable } from "../../components/ui";
+import { ageInMinutes, formatDateTime, THRESHOLD, toChartPoint } from "../../utils/utils";
 
-const TemperatureChart = lazy(() => import("./TemperatureChart"));
-const PipelineModel = lazy(() => import("./PipelineModel"));
+const TemperatureChart = lazy(() => import("../../components/charts/TemperatureChart"));
+const PipelineModel = lazy(() => import("../Pipeline/PipelineModel"));
 const STALE_AFTER_MINUTES = 10;
 const IS_A1 = import.meta.env.VITE_ARCHITECTURE === "a1";
 

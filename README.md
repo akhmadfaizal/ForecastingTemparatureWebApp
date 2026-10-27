@@ -7,6 +7,31 @@ Dashboard ini mengikuti Arsitektur 2. Peramban hanya membaca API aplikasi dan
 tidak menjalankan model, tidak menulis pembacaan manual, serta tidak menerima
 kredensial Aiven atau token pengiriman snapshot.
 
+## Struktur folder
+
+Struktur `src/` mengikuti pola *Intermediate* dari [How To Structure React Projects From Beginner To Advanced](https://blog.webdevsimplified.com/2022-07/react-folder-structure/).
+Hanya folder yang terpakai yang dibuat; tidak ada folder kosong.
+
+```text
+src/
+  main.jsx                  titik masuk, satu-satunya file di root src/
+  assets/                   styles.css, pipeline.css
+  components/
+    ui/                     PredictionRow, ReadingsTable, LoadingBlock, dll.
+    charts/                 TemperatureChart
+  data/                     mockData.js, pipelineSnapshot.json (+ testnya)
+  hooks/                    useDashboardData.js
+  pages/
+    Dashboard/index.jsx     halaman utama (App)
+    Pipeline/               PipelineModel, CleaningVisual, SourceIdentityVisual
+  services/                 api.js (akses API eksternal)
+  utils/                    utils.js, polling.js (+ test masing-masing)
+```
+
+Tes diletakkan di samping file yang diuji, bukan di folder `__tests__` terpisah.
+Komponen/hook khusus satu halaman tinggal di folder halaman itu; yang dipakai
+lintas halaman naik ke `components/`, `hooks/`, `utils/`, atau `services/`.
+
 ## Pengembangan
 
 Jalankan `npm install`, lalu `npm run dev`. Secara bawaan Vite meneruskan

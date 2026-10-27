@@ -1,6 +1,6 @@
 import { Area, AreaChart, CartesianGrid, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { TemperatureTooltip } from "./components";
-import { formatTime, THRESHOLD } from "./utils";
+import { TemperatureTooltip } from "../ui";
+import { formatTime, THRESHOLD } from "../../utils/utils";
 
 export default function TemperatureChart({ data, threshold = THRESHOLD }) {
   return (

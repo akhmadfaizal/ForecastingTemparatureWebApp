@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import { api } from "./api";
-import { mockPredictions, mockReadings } from "./mockData";
-import { normalizePrediction } from "./utils";
-import { createVisiblePoller, pollingInterval } from "./polling";
+import { api } from "../services/api";
+import { mockPredictions, mockReadings } from "../data/mockData";
+import { normalizePrediction } from "../utils/utils";
+import { createVisiblePoller, pollingInterval } from "../utils/polling";
 
 export const PREDICTION_INTERVAL_MS = pollingInterval(import.meta.env.VITE_PREDICTION_POLL_MS, 5_000);
 const HISTORY_INTERVAL_MS = pollingInterval(import.meta.env.VITE_HISTORY_POLL_MS, 60_000);

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import snapshot from "./pipelineSnapshot.json";
+import snapshot from "../../data/pipelineSnapshot.json";
 
 const format = value => new Intl.NumberFormat("id-ID", { maximumFractionDigits: 2 }).format(value);
 

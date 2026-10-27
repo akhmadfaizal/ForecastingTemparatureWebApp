@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Database, FileCsv, CalendarBlank, Clock } from "@phosphor-icons/react";
-import snapshot from "./pipelineSnapshot.json";
+import snapshot from "../../data/pipelineSnapshot.json";
 
 const stages = [
   { label: "Pilih file CSV", icon: FileCsv, title: "Mulai dari file sensor asli", description: "Data sensor diekspor dari InfluxDB ke CSV. File lokal ini menjadi sumber visualisasi; halaman tidak mengambil ulang data dari InfluxDB.", result: snapshot.source },

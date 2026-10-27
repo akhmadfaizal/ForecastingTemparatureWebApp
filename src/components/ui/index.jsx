@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { Button } from "@fluentui/react-components";
 import { Database, Thermometer } from "@phosphor-icons/react";
-import { formatDateTime, formatTime } from "./utils";
+import { formatDateTime, formatTime } from "../../utils/utils";
 
 export function PredictionRow({ item }) {
   const displayIdentity = JSON.stringify([item.id, item.generatedAt, item.temperature, item.targetAt]);

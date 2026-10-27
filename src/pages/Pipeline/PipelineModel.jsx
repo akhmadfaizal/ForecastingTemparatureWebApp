@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Line, ReferenceArea, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import snapshot from "./pipelineSnapshot.json";
+import snapshot from "../../data/pipelineSnapshot.json";
 import CleaningVisual from "./CleaningVisual";
 import SourceIdentityVisual from "./SourceIdentityVisual";
-import "./pipeline.css";
+import "../../assets/pipeline.css";
 
 const stages = [
   ["Sumber & identitas", "File sensor → data penelitian", null, "Data asli", "Baca file CSV final, periksa kolomnya, samakan waktu ke WIB, lalu ambil rentang 42 hari untuk penelitian.", "File sensor yang diekspor", "Data 20 Agustus–30 September 2026"],

@@ -153,6 +153,6 @@ if snapshot["shortGap"] is None:
     for item, value in zip(example_rows, interpolated.temperature):
         item["after"] = round(float(value), 6)
     snapshot["shortGap"] = {"slots": 2, "simulated": True, "rows": example_rows}
-destination = ROOT / "web_frontend/src/pipelineSnapshot.json"
+destination = ROOT / "web_frontend/src/data/pipelineSnapshot.json"
 destination.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2, allow_nan=False) + "\n")
 print(json.dumps({"snapshot": str(destination), "total": snapshot["total"], "complete": snapshot["complete"], "splits": splits}, indent=2))
