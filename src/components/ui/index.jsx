@@ -16,7 +16,10 @@ export function PredictionRow({ item }) {
       <div className="horizon"><span>H+{item.horizon}</span><small>menit</small></div>
       <div className="prediction-value"><strong>{Number.isFinite(item.temperature) ? item.temperature.toFixed(2) : "-"} °C</strong><span>{item.model}</span></div>
       <div className={`prediction-status ${item.above ? "is-warning" : "is-normal"}`}>{item.above ? "Di atas ambang" : "Dalam batas"}</div>
-      <time title={formatDateTime(item.targetAt)}>{formatTime(item.targetAt)}</time>
+      <div className="prediction-target">
+        <span className="prediction-target-label">Target</span>
+        <time title={formatDateTime(item.targetAt)}>{formatTime(item.targetAt)}</time>
+      </div>
     </div>
   );
 }
